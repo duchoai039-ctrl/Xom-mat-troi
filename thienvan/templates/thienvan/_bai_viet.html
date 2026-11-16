@@ -1,0 +1,32 @@
+<article class="bai">
+  {% if la_trang_bai %}<h1>{{ bai.tieu_de }}</h1>{% else %}<h2>{{ bai.tieu_de }}</h2>{% endif %}
+  {{ bai.noi_dung|linebreaks }}
+</article>
+{% if bai.co_the_ban_chua_biet %}
+<aside class="sticker my-4">
+  <h3>Có thể bạn chưa biết</h3>
+  <p>{{ bai.co_the_ban_chua_biet }}</p>
+</aside>
+{% endif %}
+<section class="mt-4" aria-label="Đánh giá và lưu bài">
+  <p class="mb-1">
+    {% if luot_cham %}<strong class="chu-vui fs-4">{{ diem_tb|floatformat:1 }}/5</strong> sao từ {{ luot_cham }} lượt chấm{% else %}Chưa có ai chấm bài này, bạn mở hàng nhé.{% endif %}
+  </p>
+  {% if user.is_authenticated %}
+  <form method="post" action="{% url 'danh_gia' bai.pk %}" class="mb-3">
+    {% csrf_token %}
+    <div class="hang-sao" role="group" aria-label="Chấm điểm bài viết">
+      {% for s in cac_sao %}
+      <button class="sao {% if s <= sao_cua_toi %}bat{% endif %}" name="so_sao" value="{{ s }}" aria-label="Chấm {{ s }} sao"><svg class="bieu-tuong" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></button>
+      {% endfor %}
+    </div>
+    {% if sao_cua_toi %}<small class="d-block">Bạn đã chấm {{ sao_cua_toi }} sao, bấm lại để đổi.</small>{% endif %}
+  </form>
+  <form method="post" action="{% url 'doi_yeu_thich' bai.pk %}">
+    {% csrf_token %}
+    <button class="nut nut-vien"><svg class="bieu-tuong" viewBox="0 0 24 24" fill="{% if da_luu %}currentColor{% else %}none{% endif %}" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>{% if da_luu %}Bỏ lưu bài này{% else %}Lưu bài này{% endif %}</button>
+  </form>
+  {% else %}
+  <p><a href="{% url 'dang_nhap' %}?next={{ bai.get_absolute_url }}">Đăng nhập</a> để chấm sao và lưu bài này.</p>
+  {% endif %}
+</section>

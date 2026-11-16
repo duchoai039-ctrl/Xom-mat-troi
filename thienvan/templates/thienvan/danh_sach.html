@@ -1,0 +1,33 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}Khám phá thiên thể | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <h1 class="display-5 mb-3">Cả xóm đây rồi</h1>
+
+  <nav class="phieu-loc" aria-label="Lọc theo loại">
+    <a href="{% url 'danh_sach' %}" {% if not loai and not hanh_tinh %}aria-current="true"{% endif %}>Tất cả</a>
+    <a href="?loai=hanh_tinh" {% if loai == 'hanh_tinh' %}aria-current="true"{% endif %}>Hành tinh</a>
+    <a href="?loai=ve_tinh" {% if loai == 've_tinh' %}aria-current="true"{% endif %}>Vệ tinh</a>
+  </nav>
+  <nav class="phieu-loc mb-4" aria-label="Lọc vệ tinh theo hành tinh mẹ">
+    {% for me in cac_hanh_tinh %}
+    <a href="?hanh_tinh={{ me.slug }}" {% if hanh_tinh == me.slug %}aria-current="true"{% endif %}>Vệ tinh {{ me.ten }}</a>
+    {% endfor %}
+  </nav>
+
+  {% if thien_the %}
+  <div class="bau-troi">
+    {% for t in thien_the %}
+    <a class="vien-bi" href="{{ t.get_absolute_url }}">
+      <span class="khung-bi">{% include "thienvan/_bi.html" %}</span>
+      <span class="nhan-ten">{{ t.ten }}
+        <small>{% if t.hanh_tinh_me %}vệ tinh {{ t.hanh_tinh_me.ten }}{% else %}{{ t.get_loai_display|lower }}{% endif %}</small>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="trong-rong">Không có thiên thể nào ở đây: hành tinh này sống một mình, không có vệ tinh. <a href="{% url 'danh_sach' %}">Xem cả xóm</a></p>
+  {% endif %}
+</div>
+{% endblock %}

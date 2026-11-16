@@ -1,0 +1,433 @@
+@font-face { font-family: "Baloo 2"; font-weight: 700; font-display: swap; src: url("../vendor/fonts/baloo-2-vietnamese-700.woff2") format("woff2"); unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB; }
+@font-face { font-family: "Baloo 2"; font-weight: 700; font-display: swap; src: url("../vendor/fonts/baloo-2-latin-ext-700.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Baloo 2"; font-weight: 700; font-display: swap; src: url("../vendor/fonts/baloo-2-latin-700.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Baloo 2"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/baloo-2-vietnamese-600.woff2") format("woff2"); unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB; }
+@font-face { font-family: "Baloo 2"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/baloo-2-latin-ext-600.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Baloo 2"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/baloo-2-latin-600.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-vietnamese-400.woff2") format("woff2"); unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-latin-ext-400.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 400; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-latin-400.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-vietnamese-600.woff2") format("woff2"); unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-latin-ext-600.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Be Vietnam Pro"; font-weight: 600; font-display: swap; src: url("../vendor/fonts/be-vietnam-pro-latin-600.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+/* only the home headline uses it, and that text is English, so Latin is enough */
+@font-face { font-family: "Fredoka"; font-weight: 700; font-display: swap; src: url("../vendor/fonts/fredoka-latin-700.woff2") format("woff2"); }
+
+:root {
+  --dem: #17102f;
+  --dem-2: #241a4a;
+  --dem-3: #36286e;
+  --trang: #f7f3ff;
+  --mo: #c6bce8;
+  --cam: #ff8a3d;
+  --cam-dam: #ffa666;
+  --keo: #ff7eb6;
+  --ngoc: #4ed4c6;
+  --vang: #ffd93d;
+  --khung: #0b0620;
+  --chu-toi: #1b1233;
+  --vien: #7f70bd; /* controls without text: at least 3:1 on every dark surface here */
+}
+
+body {
+  font-family: "Be Vietnam Pro", system-ui, sans-serif;
+  color: var(--trang);
+  background-color: var(--dem);
+  /* tiled star field: cheap, no image request */
+  background-image:
+    radial-gradient(2px 2px at 40px 60px, #fff, transparent),
+    radial-gradient(1px 1px at 130px 190px, #ffe9c9, transparent),
+    radial-gradient(1.5px 1.5px at 260px 90px, #d6ccff, transparent),
+    radial-gradient(1px 1px at 330px 280px, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 90px 330px, #bff5e4, transparent),
+    radial-gradient(1px 1px at 200px 40px, #fff, transparent),
+    radial-gradient(2.5px 2.5px at 470px 420px, #ffd9b8, transparent),
+    radial-gradient(1px 1px at 350px 510px, #d6ccff, transparent);
+  /* coprime tile sizes so the star field does not visibly repeat */
+  background-size: 397px 397px, 311px 311px, 523px 523px, 401px 401px, 613px 613px, 283px 283px, 761px 761px, 577px 577px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* nebula clouds stay put while the page scrolls; fixed backgrounds on body are unreliable on phones */
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(62vmax 44vmax at 88% 8%, rgba(124, 77, 255, .3), transparent 70%),
+    radial-gradient(48vmax 38vmax at 8% 92%, rgba(255, 94, 160, .17), transparent 70%),
+    radial-gradient(42vmax 30vmax at 58% 62%, rgba(60, 190, 200, .1), transparent 70%);
+}
+
+main { flex: 1; }
+
+/* Bootstrap stops at 1320px, which leaves wide screens half empty */
+@media (min-width: 1400px) {
+  .container { max-width: min(1560px, 94vw); }
+}
+/* long reading text keeps a readable line length, centred instead of stuck to the left */
+.cot-doc { max-width: 68ch; margin-inline: auto; }
+.container.cot-giua { max-width: 980px; }
+#form-can { max-width: 320px; } /* a single short number needs no full-width box */
+
+h1, h2, h3, .chu-vui { font-family: "Baloo 2", "Be Vietnam Pro", sans-serif; font-weight: 700; }
+h1 { line-height: 1.05; }
+a { color: var(--cam-dam); }
+a:hover { color: var(--ngoc); }
+:focus-visible { outline: 3px solid var(--ngoc); outline-offset: 3px; border-radius: 6px; }
+
+/* Navigation */
+.thanh-tren { background: rgba(23, 16, 47, .88); backdrop-filter: blur(6px); }
+.thanh-tren .navbar-brand { font-family: "Baloo 2", sans-serif; font-weight: 700; font-size: 1.5rem; color: var(--cam); }
+.thanh-tren .nav-link { color: var(--trang); }
+.thanh-tren .nav-link:hover, .thanh-tren .nav-link[aria-current] { color: var(--cam-dam); }
+.thanh-tren .navbar-toggler { border-color: var(--mo); }
+.thanh-tren .navbar-toggler-icon { filter: invert(1); }
+.thanh-tren .nav-link { display: flex; align-items: center; min-height: 44px; }
+.thanh-tren .navbar-toggler { min-height: 44px; }
+.nut-chu { background: none; border: 0; padding: .5rem; min-height: 44px; color: var(--trang); }
+.lien-ket-rieng { display: inline-flex; align-items: center; min-height: 44px; }
+.bieu-tuong { width: 1.25em; height: 1.25em; flex: none; }
+.nut-chu:hover { color: var(--cam-dam); }
+
+/* Search suggestions */
+.o-tim { position: relative; min-width: min(280px, 100%); }
+.o-tim input, .khung-form input, .khung-form select, .chon select, .chon input {
+  width: 100%;
+  min-height: 44px;
+  background: var(--dem-2);
+  color: var(--trang);
+  border: 2px solid var(--vien);
+  border-radius: 999px;
+  padding: .45rem 1rem;
+}
+.chon select { cursor: pointer; }
+.o-tim input::placeholder { color: var(--mo); }
+.o-tim input:focus, .khung-form input:focus, .chon select:focus, .chon input:focus { border-color: var(--cam); outline: none; }
+.goi-y {
+  position: absolute; z-index: 20; inset: calc(100% + 6px) 0 auto;
+  background: var(--dem-2); border: 2px solid var(--dem-3); border-radius: 18px;
+  list-style: none; margin: 0; padding: .35rem; max-height: 320px; overflow-y: auto;
+}
+.goi-y a { display: flex; align-items: center; min-height: 44px; justify-content: space-between; gap: 1rem; padding: .45rem .75rem; border-radius: 12px; color: var(--trang); text-decoration: none; }
+.goi-y a:hover, .goi-y a:focus-visible { background: var(--dem-3); color: var(--trang); }
+.goi-y small { color: var(--mo); }
+.goi-y .trong { padding: .45rem .75rem; color: var(--mo); }
+
+/* The planets as marbles: the texture slides sideways on hover so they spin */
+.bi {
+  display: block; flex: none;
+  --kt: var(--co, 60px); /* drawn size; --co stays the size that comes from the radius */
+  width: var(--kt); height: var(--kt);
+  border-radius: 50%;
+  background-color: var(--mau, var(--mo));
+  background-image: var(--anh, none);
+  background-size: 200% 100%;
+  box-shadow: inset calc(var(--kt) * -.16) calc(var(--kt) * -.1) calc(var(--kt) * .22) rgba(10, 5, 30, .78),
+              inset calc(var(--kt) * .04) calc(var(--kt) * .04) calc(var(--kt) * .1) rgba(255, 255, 255, .28);
+  transition: transform .25s cubic-bezier(.3, 1.6, .5, 1);
+  position: relative;
+}
+.bi--saturn::after {
+  content: ""; position: absolute; left: -32%; right: -32%; top: 38%; bottom: 38%;
+  border: calc(var(--kt) * .07) solid rgba(230, 207, 150, .75);
+  border-radius: 50%; transform: rotate(-18deg);
+}
+a:hover .bi, a:focus-visible .bi { transform: scale(1.12) rotate(-4deg); animation: xoay 7s linear infinite; }
+@keyframes xoay { to { background-position-x: -200%; } }
+
+.vien-bi { display: flex; flex-direction: column; align-items: center; gap: .5rem; text-align: center; text-decoration: none; color: var(--trang); }
+.vien-bi:hover { color: var(--cam-dam); }
+.vien-bi small { color: var(--mo); display: block; }
+
+/* Home */
+/* clip only sideways: the sun's glow may spill past the hero's top and bottom */
+.mo-dau { position: relative; overflow-x: clip; padding: clamp(2.5rem, 7vw, 5.5rem) 0 2rem; }
+.mat-troi {
+  position: absolute; left: -290px; top: 50%; width: 460px; height: 460px; margin-top: -230px; border-radius: 50%;
+  background: radial-gradient(circle at 62% 50%, #ffd27a 0, var(--cam) 55%, #e8552a 100%);
+  box-shadow: 0 0 70px 22px rgba(255, 138, 61, .35);
+  transition: box-shadow .25s;
+}
+/* above the full-width hero blocks, whose boxes would otherwise swallow clicks on the sun */
+a.mat-troi { z-index: 2; color: var(--trang); text-decoration: none; }
+a.mat-troi:hover, a.mat-troi:focus-visible { color: var(--cam-dam); box-shadow: 0 0 95px 40px rgba(255, 138, 61, .55); outline-offset: -8px; }
+/* same look as the planet names: light text below the body, on the dark sky. The sun's box starts far off-screen */
+a.mat-troi span { position: absolute; left: 306px; top: calc(50% + 222px); white-space: nowrap; }
+.mo-dau h1 {
+  position: relative; max-width: 7.2em; margin-bottom: 0;
+  font-family: "Fredoka", "Baloo 2", sans-serif; font-weight: 700; text-transform: uppercase; line-height: .98;
+  font-size: clamp(2.6rem, 6.4vw, 7rem); color: var(--vang);
+  /* paint-order keeps the fill clean where letter strokes overlap */
+  -webkit-text-stroke: .07em #002b5b; paint-order: stroke fill;
+  /* navy, as a shadow on this dark sky, would vanish: the Sun's orange keeps the sticker look */
+  text-shadow: .075em .075em 0 var(--cam);
+}
+.loi-chao { position: relative; width: fit-content; }
+.quy-dao { position: absolute; left: -6%; top: -24%; width: 112%; height: 148%; overflow: visible; pointer-events: none; }
+.ve-tinh-nho {
+  /* the ellipse drawn in trang_chu.html, as a path; a CSS animation so reduced-motion can stop it */
+  offset-path: path("M 10 184 a 390 130 -5 1 1 780 -68 a 390 130 -5 1 1 -780 68");
+  animation: bay-quanh 18s linear infinite;
+}
+.ve-tinh-nho--1 { fill: #ffd93d; }
+.ve-tinh-nho--2 { fill: #ff4fa3; animation-delay: -6s; }
+.ve-tinh-nho--3 { fill: #4ed4ff; animation-delay: -12s; }
+@keyframes bay-quanh { to { offset-distance: 100%; } }
+.mo-dau .noi-dung { position: relative; padding-left: clamp(0px, 16vw, 230px); }
+.hang-hanh-tinh {
+  position: relative; display: flex; align-items: center; gap: clamp(1rem, 1.8vw, 1.6rem);
+  justify-content: space-between; /* spreads across wide screens; does nothing once the row has to scroll */
+  overflow-x: auto; padding: 3rem clamp(1rem, 4vw, 5rem) 1.25rem clamp(190px, 16vw, 230px); /* 190px clears the sun's fixed 170px on-screen width */
+  scrollbar-width: thin; scrollbar-color: var(--dem-3) transparent;
+  /* the dashed orbit: a local background spans exactly what can be scrolled, so it can never add scroll itself */
+  background: repeating-linear-gradient(90deg, rgba(198, 188, 232, .35) 0 8px, transparent 8px 14px) 0 calc(50% + 4px) / 100% 2px no-repeat local;
+}
+.hang-hanh-tinh .vien-bi { position: relative; flex: none; }
+/* Planets scale with the window so all 8 fit from about 1024px up; the row only scrolls when it truly must.
+   --so is the size as a plain number, because CSS cannot multiply two lengths. */
+.hang-hanh-tinh .bi { --kt: calc(var(--so) * clamp(.5px, .0977vw - .511px, 1.15px)); }
+/* on small laptops the long names set the row's width, so they wrap instead of forcing a scroll */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .hang-hanh-tinh { gap: .85rem; }
+  .hang-hanh-tinh .vien-bi > span:last-child { display: block; max-width: 5.5em; line-height: 1.25; }
+  .hang-hanh-tinh .vien-bi:has(.bi--saturn) { margin-inline: .75rem; }
+}
+@media (max-width: 767.98px) {
+  .hang-hanh-tinh .bi { --kt: calc(var(--co) * .85); }
+}
+
+/* Four-point stars around the greeting: decoration only, clicks pass through */
+.sao-tu { position: absolute; pointer-events: none; transform: rotate(-12deg); fill: currentColor; }
+.sao-tu--1 { top: 5%; right: 31%; width: 40px; color: var(--vang); }
+.sao-tu--2 { top: 52%; right: 30%; width: 24px; color: var(--keo); }
+.sao-tu--3 { top: 2%; right: 2%; width: 30px; color: var(--ngoc); }
+
+/* Astronaut window: sits in the empty corner beside the greeting, out of the page flow */
+.phi-hanh-gia {
+  position: absolute; top: 1.5rem; right: 3%; width: 150px; aspect-ratio: 1; margin: 0;
+  border: 3px solid var(--trang); border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%;
+  box-shadow: 8px 8px 0 var(--keo); overflow: clip;
+}
+.phi-hanh-gia img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 1023.98px) {
+  .phi-hanh-gia { width: 120px; }
+  .sao-tu--2 { display: none; } /* the shorter hero would put it on top of Jupiter */
+}
+/* below 1200px the greeting would run under a full-size window */
+@media (min-width: 1200px) {
+  .phi-hanh-gia { top: 2rem; right: 5%; width: 280px; }
+}
+@media (max-width: 767.98px) {
+  .sao-tu--1 { top: 8px; right: 6%; width: 26px; }
+  .sao-tu--2 { display: none; }
+  .sao-tu--3 { top: 170px; right: 8%; width: 20px; }
+  /* no free corner on a phone: the window follows the planets instead */
+  .mo-dau { display: flex; flex-direction: column; }
+  .phi-hanh-gia { position: relative; top: auto; right: auto; order: 3; align-self: center; width: 180px; margin-top: 1rem; }
+}
+.hang-hanh-tinh .vien-bi:has(.bi--saturn) { margin-inline: 1.5rem; }
+@media (max-width: 767.98px) {
+  /* no room beside the text on a phone: only a slice of sun stays at the edge */
+  .mat-troi { left: -410px; top: 0; margin-top: 40px; }
+  a.mat-troi span { left: 422px; top: calc(50% + 135px); }
+  .mo-dau .noi-dung { padding-left: 3.75rem; }
+  .hang-hanh-tinh { padding-left: 3.75rem; scrollbar-width: none; }
+}
+
+.sticker {
+  background: var(--ngoc); color: var(--chu-toi);
+  padding: 1.1rem 1.4rem; max-width: 62ch; margin-inline: auto;
+  border-radius: 30px 14px 34px 12px;
+  transform: rotate(-1deg);
+}
+.sticker h2, .sticker h3 { font-size: 1.3rem; margin-bottom: .25rem; }
+.sticker a { color: var(--chu-toi); font-weight: 600; }
+.sticker a:hover { color: #5c1f8a; }
+.sticker p { margin: 0; }
+
+
+/* List */
+.phieu-loc { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: .9rem; }
+.phieu-loc a {
+  display: inline-flex; align-items: center; min-height: 44px;
+  padding: .3rem .95rem; border-radius: 999px; border: 3px solid var(--vien);
+  box-shadow: 3px 3px 0 var(--vien);
+  color: var(--trang); text-decoration: none; background: var(--dem-2);
+}
+.phieu-loc a:hover { border-color: var(--trang); color: var(--trang); }
+.phieu-loc a[aria-current] { background: var(--vang); border-color: var(--trang); color: var(--chu-toi); font-weight: 600; }
+.bau-troi { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 2.25rem 1.25rem; align-items: start; }
+
+/* Framed bodies: dark window, thick border, hard shadow in a colour that rotates down the grid */
+.bau-troi .vien-bi { gap: 0; --bong-khung: var(--keo); }
+.bau-troi .vien-bi:nth-child(3n+1) { --bong-khung: var(--vang); }
+.bau-troi .vien-bi:nth-child(3n+2) { --bong-khung: var(--ngoc); }
+.khung-bi {
+  container-type: inline-size;
+  display: grid; place-items: center; width: 100%; aspect-ratio: 1;
+  background: var(--khung); border: 3px solid var(--trang); border-radius: 26px;
+  box-shadow: 7px 7px 0 var(--bong-khung);
+  overflow: clip;
+  transition: transform .15s, box-shadow .15s;
+}
+/* 58cqw leaves room for Saturn's ring, which is 1.64x the planet's width */
+.khung-bi .bi { --kt: min(var(--co), 58cqw); }
+.vien-bi:hover .khung-bi { transform: translate(-3px, -3px); box-shadow: 10px 10px 0 var(--bong-khung); }
+.nhan-ten {
+  position: relative; margin-top: -16px; max-width: 92%; padding: .3rem .8rem;
+  background: var(--trang); color: var(--chu-toi); font-weight: 600; line-height: 1.3;
+  border-radius: 10px; box-shadow: 3px 3px 0 var(--bong-khung); transform: rotate(-1.5deg);
+}
+.vien-bi:nth-child(even) .nhan-ten { transform: rotate(1.5deg); }
+.nhan-ten small { color: #4b3f78; font-weight: 400; }
+.trong-rong { color: var(--mo); font-size: 1.1rem; }
+
+/* Detail */
+.san-khau { position: relative; aspect-ratio: 1; max-width: 520px; margin-inline: auto; display: grid; place-items: center; touch-action: pan-y; overflow: clip; }
+/* OrbitControls sets touch-action:none inline; pan-y keeps the page scrollable on a phone */
+.san-khau canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; cursor: grab; touch-action: pan-y !important; }
+.san-khau canvas:active { cursor: grabbing; }
+.san-khau.da-3d .bi { visibility: hidden; }
+.san-khau .bi { --co: min(68vw, 330px); }
+.goi-y-xoay { color: var(--mo); text-align: center; font-size: .9rem; }
+.ten-lon { font-size: clamp(2.8rem, 8vw, 4.6rem); margin-bottom: 0; color: var(--cam); }
+.ten-phu { color: var(--mo); font-size: 1.1rem; }
+.ly-lich { width: 100%; }
+.ly-lich th, .ly-lich td { padding: .55rem 0; border-bottom: 1px dashed var(--dem-3); vertical-align: top; }
+.ly-lich th { font-weight: 400; color: var(--mo); padding-right: 1rem; }
+.ly-lich td { font-weight: 600; text-align: right; }
+.bai { max-width: 68ch; font-size: 1.06rem; line-height: 1.75; }
+.bai h1, .bai h2 { font-size: 2rem; }
+
+/* Star rating: stars left of the hovered one light up too */
+.hang-sao { display: inline-flex; }
+.sao { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: none; border: 0; padding: 0; color: var(--vien); transition: transform .15s; }
+.sao .bieu-tuong { width: 32px; height: 32px; }
+.sao.bat { color: var(--cam); }
+.hang-sao:hover .sao { color: var(--vien); }
+.hang-sao .sao:hover, .hang-sao .sao:has(~ .sao:hover) { color: var(--cam-dam); }
+.sao:hover { transform: scale(1.2) rotate(-8deg); }
+.nut {
+  display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 44px;
+  --bong-nut: var(--vien);
+  background: var(--cam); color: var(--chu-toi); font-weight: 600; border: 3px solid var(--trang);
+  border-radius: 999px; padding: .4rem 1.2rem; text-decoration: none;
+  box-shadow: 4px 4px 0 var(--bong-nut);
+  transition: transform .12s, box-shadow .12s, background-color .12s;
+}
+.nut:hover { background: var(--cam-dam); color: var(--chu-toi); transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--bong-nut); }
+/* pressing pushes the button into its shadow */
+.nut:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--bong-nut); }
+.nut-vien { --bong-nut: var(--keo); background: transparent; color: var(--keo); border-color: var(--keo); }
+.nut-vien:hover { background: var(--keo); color: var(--chu-toi); }
+
+/* Forms */
+.khung-form { max-width: 440px; background: var(--dem-2); border-radius: 36px 16px 36px 16px; padding: clamp(1.25rem, 4vw, 2.25rem); }
+.khung-form input { background: var(--dem); }
+.khung-form--rong { max-width: 760px; }
+.khung-form select { background: var(--dem); cursor: pointer; }
+.khung-form select option { background: var(--dem-2); }
+.khung-form input[type="color"] { width: 88px; padding: .25rem .4rem; cursor: pointer; }
+.khung-form textarea {
+  display: block; width: 100%; padding: .7rem 1rem; line-height: 1.6;
+  background: var(--dem); color: var(--trang); border: 2px solid var(--vien); border-radius: 18px;
+}
+.khung-form textarea:focus, .khung-form select:focus { border-color: var(--cam); outline: none; }
+
+/* The admin's two ways of adding */
+.lua-chon { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.lua-chon a {
+  display: block; padding: 1.4rem 1.5rem; text-decoration: none; color: var(--trang);
+  background: var(--khung); border: 3px solid var(--trang); border-radius: 26px;
+  box-shadow: 7px 7px 0 var(--vang); transition: transform .15s, box-shadow .15s;
+}
+.lua-chon a:last-child { box-shadow: 7px 7px 0 var(--ngoc); }
+.lua-chon a:hover { transform: translate(-3px, -3px); color: var(--trang); }
+.lua-chon strong { display: block; margin-bottom: .4rem; font-family: "Baloo 2", sans-serif; font-size: 1.4rem; line-height: 1.25; }
+.lua-chon span { color: var(--mo); }
+.nhan-beta {
+  display: inline-block; padding: 0 .55rem; border-radius: 8px; vertical-align: middle;
+  background: var(--vang); color: var(--chu-toi); font: italic 700 .85rem/1.6 "Be Vietnam Pro", sans-serif;
+}
+.khung-form label { display: block; margin-bottom: .3rem; font-weight: 600; }
+.khung-form form > div { margin-bottom: 1rem; }
+.khung-form .helptext { color: var(--mo); font-size: .9rem; display: block; margin-top: .3rem; }
+.khung-form .helptext ul { padding-left: 1.1rem; margin: 0; }
+.errorlist { list-style: none; padding: 0; margin: 0 0 .35rem; color: var(--keo); font-weight: 600; }
+.bao-loi { color: var(--keo); font-weight: 600; }
+
+/* Compare and weight */
+.chon { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); align-items: end; max-width: 760px; }
+.chon label { display: block; font-weight: 600; margin-bottom: .3rem; }
+.chon select option { background: var(--dem-2); }
+/* Face-off layout: the two sides meet at the VS in the middle of the page */
+.chon--doi { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: start; max-width: none; }
+.o-nut { grid-column: 1 / -1; text-align: center; }
+/* capped by height too, so on a 768px laptop the verdict still starts on the first screen */
+.o-so-sanh { width: 100%; min-width: 0; max-width: min(540px, 52vh); }
+.o-so-sanh--a { justify-self: end; }
+.o-so-sanh--b { justify-self: start; }
+.o-so-sanh .san-khau { container-type: inline-size; max-width: none; margin-top: .9rem; }
+.o-so-sanh .bi { --kt: 83cqw; transform: scale(var(--ti-le-bi, 1)); }
+.o-so-sanh canvas { transform: scale(var(--ti-le-3d, 1)); transition: transform .35s; }
+
+/* The verdict */
+#ket-qua { max-width: 1000px; margin-inline: auto; }
+.chung-cuoc {
+  margin: 1.25rem 0 .75rem; text-align: center; line-height: 1.2;
+  font-family: "Baloo 2", sans-serif; font-weight: 700; font-size: clamp(1.6rem, 4vw, 2.6rem); color: var(--vang);
+}
+.chung-cuoc--a { color: var(--cam-dam); }
+.chung-cuoc--b { color: var(--ngoc); }
+.ket-luan { display: block; color: var(--trang); font-size: .9rem; font-weight: 600; }
+.bang-vui td.o-thang { font-weight: 700; color: var(--vang); }
+.them-bieu-do { margin-top: 1.5rem; }
+.them-bieu-do summary { display: flex; align-items: center; min-height: 44px; width: fit-content; cursor: pointer; font-weight: 600; color: var(--cam-dam); }
+.them-bieu-do summary::before { content: "+"; width: 1.3em; font-size: 1.3em; line-height: 1; }
+.them-bieu-do[open] summary::before { content: "\2212"; }
+.trong-san-khau {
+  display: grid; place-items: center; width: 62cqw; aspect-ratio: 1; padding: 1rem;
+  border: 2px dashed var(--vien); border-radius: 50%; color: var(--mo); text-align: center;
+}
+.chu-vs {
+  align-self: center; margin-top: 3.4rem; /* the label and select above push the planets' centre down */
+  padding-inline: clamp(.1rem, 2vw, 2rem);
+  font-family: "Baloo 2", sans-serif; font-weight: 700; font-style: italic; line-height: 1;
+  font-size: clamp(2rem, 7vw, 6.5rem); color: var(--vang);
+  text-shadow: -.05em .04em 0 var(--cam), .05em .06em 0 var(--ngoc);
+  transform: rotate(-6deg);
+  visibility: hidden;
+}
+/* only once both sides have a fighter; the animation plays each time this starts matching */
+.chon--doi:has(#chon-a option:checked:not([value=""])):has(#chon-b option:checked:not([value=""])) .chu-vs {
+  visibility: visible;
+  animation: vs-dap .35s cubic-bezier(.2, 1.6, .4, 1);
+}
+@keyframes vs-dap { from { opacity: 0; transform: rotate(-6deg) scale(2.6); } }
+@media (max-width: 575.98px) {
+  .chon--doi { gap: .4rem; }
+  .chon--doi select { padding-inline: .7rem; }
+}
+.bang-vui-wrap { overflow-x: auto; }
+.bang-vui { width: 100%; border-collapse: collapse; }
+.bang-vui th, .bang-vui td { padding: .6rem .75rem; border-bottom: 1px dashed var(--dem-3); }
+.bang-vui thead th { font-family: "Baloo 2", sans-serif; font-size: 1.15rem; }
+.bang-vui tbody th { font-weight: 400; color: var(--mo); }
+.bang-vui a { display: inline-flex; align-items: center; min-height: 44px; margin-block: -.6rem; }
+.cot-a { color: var(--cam-dam); }
+.cot-b { color: var(--ngoc); }
+/* auto-fill, not auto-fit: charts are added one by one and auto-fit would stretch the first to full width */
+.luoi-bieu-do { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+/* Chart.js sizes the canvas from a positioned parent; min-width lets the grid cell shrink */
+.luoi-bieu-do figure { position: relative; min-width: 0; background: var(--dem-2); border-radius: 22px; padding: 1rem; margin: 0; height: 280px; }
+
+footer { color: var(--mo); font-size: .88rem; border-top: 1px dashed var(--dem-3); }
+footer a { color: var(--mo); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  a:hover .bi, a:focus-visible .bi { transform: none; }
+  .vien-bi:hover .khung-bi, .nut:hover, .nut:active { transform: none; }
+}

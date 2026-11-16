@@ -1,0 +1,61 @@
+{% load static %}<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block tieu_de %}Xóm Mặt Trời{% endblock %}</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23ff8a3d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{% static 'vendor/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'thienvan/style.css' %}">
+  {% block dau_trang %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg thanh-tren sticky-top">
+    <div class="container">
+      {% block thuong_hieu %}<a class="navbar-brand" href="{% url 'trang_chu' %}">Xóm Mặt Trời</a>{% endblock %}
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Mở menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="{% url 'danh_sach' %}">Khám phá</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'so_sanh' %}">So sánh</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'can_nang' %}">Cân thử</a></li>
+          {% if user.is_authenticated %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'yeu_thich' %}">Đã lưu</a></li>
+          {% if user.is_staff %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'them_bai' %}">Thêm bài viết</a></li>
+          {% endif %}
+          {% endif %}
+        </ul>
+        <form class="o-tim my-2 my-lg-0 me-lg-3" role="search" action="{% url 'tim_kiem' %}" data-goi-y="{% url 'goi_y' %}">
+          <input type="search" name="q" placeholder="Tìm: mặt trăng, titan..." aria-label="Tìm thiên thể" autocomplete="off" value="{{ q|default:'' }}">
+          <ul class="goi-y" hidden></ul>
+        </form>
+        <div class="d-flex align-items-center gap-2">
+          {% if user.is_authenticated %}
+          <form method="post" action="{% url 'dang_xuat' %}">{% csrf_token %}<button class="nut-chu">Đăng xuất</button></form>
+          {% else %}
+          <a class="nav-link px-2" href="{% url 'dang_nhap' %}">Đăng nhập</a>
+          <a class="nut" href="{% url 'dang_ky' %}">Đăng ký</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>{% block noi_dung %}{% endblock %}</main>
+
+  <footer class="py-4 mt-5">
+    <div class="container">
+      Ảnh bề mặt hành tinh: <a href="https://www.solarsystemscope.com/textures/">Solar System Scope</a>.
+      Ảnh phi hành gia: NASA.
+      Số liệu tham khảo từ NASA và Solar System OpenData, có làm tròn.
+    </div>
+  </footer>
+
+  <script src="{% static 'vendor/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'thienvan/tim_kiem.js' %}"></script>
+  {% block cuoi_trang %}{% endblock %}
+</body>
+</html>

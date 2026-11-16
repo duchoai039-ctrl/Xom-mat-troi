@@ -1,0 +1,53 @@
+{% extends "thienvan/base.html" %}
+{% load static %}
+{% block tieu_de %}So sánh thiên thể | Xóm Mặt Trời{% endblock %}
+{% block dau_trang %}
+<script type="importmap">{"imports": {"three": "{% static 'vendor/three.module.min.js' %}"}}</script>
+{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <h1 class="display-5 mb-4 text-center">Cho hai thiên thể đọ sức</h1>
+  <form class="chon chon--doi" method="get">
+    {% include "thienvan/_o_so_sanh.html" with ben="a" nhan="Bên cam" chon=chon_a %}
+    <div class="chu-vs" aria-hidden="true">VS</div>
+    {% include "thienvan/_o_so_sanh.html" with ben="b" nhan="Bên xanh ngọc" chon=chon_b %}
+    <div class="o-nut"><button class="nut">So sánh</button></div>
+  </form>
+
+  <section id="ket-qua" aria-live="polite">
+    {% if loi %}<p class="bao-loi mt-3 text-center" role="alert">{{ loi }}</p>{% endif %}
+
+    {% if a %}
+    <p class="chung-cuoc chung-cuoc--{{ ket_qua.ben_thang }}">
+      {% if ket_qua.nguoi_thang %}{{ ket_qua.nguoi_thang.ten }} thắng {{ ket_qua.diem_cao }}-{{ ket_qua.diem_thap }}{% elif ket_qua.co_so_lieu %}Hoà {{ ket_qua.diem_cao }}-{{ ket_qua.diem_thap }}{% else %}Chưa đủ số liệu để phân thắng bại{% endif %}
+    </p>
+    <div class="bang-vui-wrap">
+      <table class="bang-vui">
+        <thead><tr><th scope="col"><span class="visually-hidden">Chỉ số</span></th><th scope="col" class="cot-a">{{ a.ten }}</th><th scope="col" class="cot-b">{{ b.ten }}</th></tr></thead>
+        <tbody>
+          {% for h in ket_qua.hiep %}
+          <tr>
+            <th scope="row">{{ h.nhan }}<span class="ket-luan">{{ h.ket_luan }}</span></th>
+            <td {% if h.ben == 'a' %}class="o-thang"{% endif %}>{{ h.gia_tri_a }}</td>
+            <td {% if h.ben == 'b' %}class="o-thang"{% endif %}>{{ h.gia_tri_b }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <details class="them-bieu-do">
+      <summary>Xem bằng biểu đồ</summary>
+      <p class="trong-rong">Trục đo theo logarit: mỗi vạch lớn gấp 10 lần vạch dưới, nếu không vệ tinh nhỏ sẽ gần như vô hình.</p>
+      <div class="luoi-bieu-do" id="bieu-do" data-a="{{ a.ten }}" data-b="{{ b.ten }}"></div>
+      {{ bieu_do|json_script:"du-lieu-bieu-do" }}
+    </details>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}
+{% block cuoi_trang %}
+<script src="{% static 'vendor/chart.umd.min.js' %}"></script>
+<script src="{% static 'thienvan/so_sanh.js' %}"></script>
+<script type="module" src="{% static 'thienvan/so_sanh_3d.js' %}"></script>
+{% endblock %}

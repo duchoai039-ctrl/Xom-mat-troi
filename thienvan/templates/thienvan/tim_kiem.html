@@ -1,0 +1,21 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}Tìm kiếm | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <h1 class="display-5 mb-4">{% if q %}Kết quả cho "{{ q }}"{% else %}Bạn muốn tìm thiên thể nào?{% endif %}</h1>
+  {% if ket_qua %}
+  <div class="bau-troi">
+    {% for t in ket_qua %}
+    <a class="vien-bi" href="{{ t.get_absolute_url }}">
+      <span class="khung-bi">{% include "thienvan/_bi.html" %}</span>
+      <span class="nhan-ten">{{ t.ten }}<small>{{ t.get_loai_display }}</small></span>
+    </a>
+    {% endfor %}
+  </div>
+  {% elif q %}
+  <p class="trong-rong">Chưa thấy thiên thể này trong xóm. Kiểm tra lại tên, hoặc <a href="{% url 'danh_sach' %}">xem cả xóm</a>.</p>
+  {% else %}
+  <p class="trong-rong">Gõ tên vào ô tìm kiếm ở trên, có dấu hay không dấu đều được.</p>
+  {% endif %}
+</div>
+{% endblock %}

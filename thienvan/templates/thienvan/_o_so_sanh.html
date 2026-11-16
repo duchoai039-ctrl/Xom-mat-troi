@@ -1,0 +1,12 @@
+{% load static %}<div class="o-so-sanh o-so-sanh--{{ ben }}">
+  <label for="chon-{{ ben }}">{{ nhan }}</label>
+  <select id="chon-{{ ben }}" name="{{ ben }}" required>
+    <option value="">Chọn thiên thể</option>
+    {% for t in tat_ca %}<option data-co="{{ t.co_hinh }}" value="{{ t.slug }}" data-texture="{{ t.texture_url }}" data-mau="{{ t.mau }}" {% if t.slug == chon %}selected{% endif %}>{{ t.ten }}</option>{% endfor %}
+  </select>
+  <div class="san-khau" data-may="{% static 'textures/earth_clouds.jpg' %}" data-vanh="{% static 'textures/saturn_ring_alpha.png' %}">
+    <span class="bi" aria-hidden="true" hidden></span>
+    <span class="trong-san-khau">Chọn một thiên thể</span>
+  </div>
+  <p class="goi-y-xoay mt-2 mb-0" hidden>Kéo để xoay</p>
+</div>

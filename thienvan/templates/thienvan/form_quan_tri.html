@@ -1,0 +1,18 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}{{ tieu_de }} | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <div class="khung-form khung-form--rong mx-auto">
+    <h1 class="mb-3">{{ tieu_de }}{% if beta %} <em class="nhan-beta">beta</em>{% endif %}</h1>
+    {% if beta %}<p>Hành tinh mới chưa có hình 3D, nó sẽ hiện thành viên bi theo màu bạn chọn. Số liệu nào chưa biết thì để trống.</p>{% endif %}
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_div }}
+      <div class="d-flex flex-wrap align-items-center gap-3">
+        <button class="nut">{{ nut }}</button>
+        <a class="lien-ket-rieng" href="{% url 'them_bai' %}">Quay lại</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}Bài đã lưu | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <h1 class="display-5 mb-4">Bài đã lưu</h1>
+  {% if da_luu %}
+  <div class="bau-troi">
+    {% for muc in da_luu %}
+    {% with t=muc.bai_viet.thien_the %}
+    <a class="vien-bi" href="{{ muc.bai_viet.get_absolute_url }}">
+      <span class="khung-bi">{% include "thienvan/_bi.html" %}</span>
+      <span class="nhan-ten">{{ muc.bai_viet.tieu_de }}<small>{{ t.ten }}</small></span>
+    </a>
+    {% endwith %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="trong-rong">Chưa lưu bài nào. <a href="{% url 'danh_sach' %}">Đi dạo một vòng quanh xóm</a> rồi bấm "Lưu bài này" ở bài bạn thích.</p>
+  {% endif %}
+</div>
+{% endblock %}

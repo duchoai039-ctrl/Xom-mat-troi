@@ -1,0 +1,1250 @@
+[
+{
+  "model": "thienvan.thienthe",
+  "pk": 1,
+  "fields": {
+    "ten": "Sao Thủy",
+    "ten_en": "Mercury",
+    "ten_khong_dau": "sao thuy",
+    "slug": "mercury",
+    "api_id": "mercure",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 1,
+    "mau": "#B7A99A",
+    "ban_kinh_km": 2439.7,
+    "khoi_luong_kg": 3.301e+23,
+    "trong_luc": 3.7,
+    "chu_ky_quy_dao_ngay": 87.969,
+    "chu_ky_tu_quay_gio": 1407.6,
+    "nhiet_do_tb_k": 440.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 2,
+  "fields": {
+    "ten": "Sao Kim",
+    "ten_en": "Venus",
+    "ten_khong_dau": "sao kim",
+    "slug": "venus",
+    "api_id": "venus",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 2,
+    "mau": "#E8B96A",
+    "ban_kinh_km": 6051.8,
+    "khoi_luong_kg": 4.867e+24,
+    "trong_luc": 8.87,
+    "chu_ky_quy_dao_ngay": 224.701,
+    "chu_ky_tu_quay_gio": -5832.5,
+    "nhiet_do_tb_k": 737.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 3,
+  "fields": {
+    "ten": "Trái Đất",
+    "ten_en": "Earth",
+    "ten_khong_dau": "trai dat",
+    "slug": "earth",
+    "api_id": "terre",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 3,
+    "mau": "#4F9DE8",
+    "ban_kinh_km": 6371.0,
+    "khoi_luong_kg": 5.972e+24,
+    "trong_luc": 9.81,
+    "chu_ky_quy_dao_ngay": 365.256,
+    "chu_ky_tu_quay_gio": 23.934,
+    "nhiet_do_tb_k": 288.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 4,
+  "fields": {
+    "ten": "Sao Hỏa",
+    "ten_en": "Mars",
+    "ten_khong_dau": "sao hoa",
+    "slug": "mars",
+    "api_id": "mars",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 4,
+    "mau": "#E0663A",
+    "ban_kinh_km": 3389.5,
+    "khoi_luong_kg": 6.417e+23,
+    "trong_luc": 3.71,
+    "chu_ky_quy_dao_ngay": 686.98,
+    "chu_ky_tu_quay_gio": 24.623,
+    "nhiet_do_tb_k": 210.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 5,
+  "fields": {
+    "ten": "Sao Mộc",
+    "ten_en": "Jupiter",
+    "ten_khong_dau": "sao moc",
+    "slug": "jupiter",
+    "api_id": "jupiter",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 5,
+    "mau": "#D9A77A",
+    "ban_kinh_km": 69911.0,
+    "khoi_luong_kg": 1.898e+27,
+    "trong_luc": 24.79,
+    "chu_ky_quy_dao_ngay": 4332.59,
+    "chu_ky_tu_quay_gio": 9.925,
+    "nhiet_do_tb_k": 165.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 6,
+  "fields": {
+    "ten": "Sao Thổ",
+    "ten_en": "Saturn",
+    "ten_khong_dau": "sao tho",
+    "slug": "saturn",
+    "api_id": "saturne",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 6,
+    "mau": "#E6CF96",
+    "ban_kinh_km": 58232.0,
+    "khoi_luong_kg": 5.683e+26,
+    "trong_luc": 10.44,
+    "chu_ky_quy_dao_ngay": 10759.22,
+    "chu_ky_tu_quay_gio": 10.656,
+    "nhiet_do_tb_k": 134.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 7,
+  "fields": {
+    "ten": "Sao Thiên Vương",
+    "ten_en": "Uranus",
+    "ten_khong_dau": "sao thien vuong",
+    "slug": "uranus",
+    "api_id": "uranus",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 7,
+    "mau": "#9FE3E6",
+    "ban_kinh_km": 25362.0,
+    "khoi_luong_kg": 8.681e+25,
+    "trong_luc": 8.87,
+    "chu_ky_quy_dao_ngay": 30688.5,
+    "chu_ky_tu_quay_gio": -17.24,
+    "nhiet_do_tb_k": 76.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 8,
+  "fields": {
+    "ten": "Sao Hải Vương",
+    "ten_en": "Neptune",
+    "ten_khong_dau": "sao hai vuong",
+    "slug": "neptune",
+    "api_id": "neptune",
+    "loai": "hanh_tinh",
+    "hanh_tinh_me": null,
+    "thu_tu": 8,
+    "mau": "#4F6FE8",
+    "ban_kinh_km": 24622.0,
+    "khoi_luong_kg": 1.024e+26,
+    "trong_luc": 11.15,
+    "chu_ky_quy_dao_ngay": 60182.0,
+    "chu_ky_tu_quay_gio": 16.11,
+    "nhiet_do_tb_k": 72.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 9,
+  "fields": {
+    "ten": "Mặt Trăng",
+    "ten_en": "Moon",
+    "ten_khong_dau": "mat trang",
+    "slug": "moon",
+    "api_id": "lune",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 3,
+    "thu_tu": 9,
+    "mau": "#C9C6D6",
+    "ban_kinh_km": 1737.4,
+    "khoi_luong_kg": 7.342e+22,
+    "trong_luc": 1.62,
+    "chu_ky_quy_dao_ngay": 27.322,
+    "chu_ky_tu_quay_gio": 655.7,
+    "nhiet_do_tb_k": 220.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 10,
+  "fields": {
+    "ten": "Phobos",
+    "ten_en": "Phobos",
+    "ten_khong_dau": "phobos",
+    "slug": "phobos",
+    "api_id": "phobos",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 4,
+    "thu_tu": 10,
+    "mau": "#8F7F73",
+    "ban_kinh_km": 11.27,
+    "khoi_luong_kg": 1.066e+16,
+    "trong_luc": 0.0057,
+    "chu_ky_quy_dao_ngay": 0.319,
+    "chu_ky_tu_quay_gio": 7.66,
+    "nhiet_do_tb_k": 233.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 11,
+  "fields": {
+    "ten": "Deimos",
+    "ten_en": "Deimos",
+    "ten_khong_dau": "deimos",
+    "slug": "deimos",
+    "api_id": "deimos",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 4,
+    "thu_tu": 11,
+    "mau": "#A8957F",
+    "ban_kinh_km": 6.2,
+    "khoi_luong_kg": 1476000000000000.0,
+    "trong_luc": 0.003,
+    "chu_ky_quy_dao_ngay": 1.263,
+    "chu_ky_tu_quay_gio": 30.3,
+    "nhiet_do_tb_k": 233.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 12,
+  "fields": {
+    "ten": "Io",
+    "ten_en": "Io",
+    "ten_khong_dau": "io",
+    "slug": "io",
+    "api_id": "io",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 12,
+    "mau": "#E8D85A",
+    "ban_kinh_km": 1821.6,
+    "khoi_luong_kg": 8.93e+22,
+    "trong_luc": 1.796,
+    "chu_ky_quy_dao_ngay": 1.769,
+    "chu_ky_tu_quay_gio": 42.46,
+    "nhiet_do_tb_k": 110.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 13,
+  "fields": {
+    "ten": "Europa",
+    "ten_en": "Europa",
+    "ten_khong_dau": "europa",
+    "slug": "europa",
+    "api_id": "europe",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 13,
+    "mau": "#E3D9C6",
+    "ban_kinh_km": 1560.8,
+    "khoi_luong_kg": 4.8e+22,
+    "trong_luc": 1.314,
+    "chu_ky_quy_dao_ngay": 3.551,
+    "chu_ky_tu_quay_gio": 85.2,
+    "nhiet_do_tb_k": 102.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 14,
+  "fields": {
+    "ten": "Ganymede",
+    "ten_en": "Ganymede",
+    "ten_khong_dau": "ganymede",
+    "slug": "ganymede",
+    "api_id": "ganymede",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 14,
+    "mau": "#A79B8C",
+    "ban_kinh_km": 2634.1,
+    "khoi_luong_kg": 1.482e+23,
+    "trong_luc": 1.428,
+    "chu_ky_quy_dao_ngay": 7.155,
+    "chu_ky_tu_quay_gio": 171.7,
+    "nhiet_do_tb_k": 110.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 15,
+  "fields": {
+    "ten": "Callisto",
+    "ten_en": "Callisto",
+    "ten_khong_dau": "callisto",
+    "slug": "callisto",
+    "api_id": "callisto",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 15,
+    "mau": "#7E7264",
+    "ban_kinh_km": 2410.3,
+    "khoi_luong_kg": 1.076e+23,
+    "trong_luc": 1.235,
+    "chu_ky_quy_dao_ngay": 16.689,
+    "chu_ky_tu_quay_gio": 400.5,
+    "nhiet_do_tb_k": 134.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 16,
+  "fields": {
+    "ten": "Amalthea",
+    "ten_en": "Amalthea",
+    "ten_khong_dau": "amalthea",
+    "slug": "amalthea",
+    "api_id": "amalthee",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 16,
+    "mau": "#B5573F",
+    "ban_kinh_km": 83.5,
+    "khoi_luong_kg": 2.08e+18,
+    "trong_luc": 0.02,
+    "chu_ky_quy_dao_ngay": 0.498,
+    "chu_ky_tu_quay_gio": 11.96,
+    "nhiet_do_tb_k": 120.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 17,
+  "fields": {
+    "ten": "Himalia",
+    "ten_en": "Himalia",
+    "ten_khong_dau": "himalia",
+    "slug": "himalia",
+    "api_id": "himalia",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 5,
+    "thu_tu": 17,
+    "mau": "#8D8378",
+    "ban_kinh_km": 85.0,
+    "khoi_luong_kg": 4.2e+18,
+    "trong_luc": 0.062,
+    "chu_ky_quy_dao_ngay": 250.6,
+    "chu_ky_tu_quay_gio": 7.78,
+    "nhiet_do_tb_k": null
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 18,
+  "fields": {
+    "ten": "Titan",
+    "ten_en": "Titan",
+    "ten_khong_dau": "titan",
+    "slug": "titan",
+    "api_id": "titan",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 18,
+    "mau": "#E0A84F",
+    "ban_kinh_km": 2574.7,
+    "khoi_luong_kg": 1.345e+23,
+    "trong_luc": 1.352,
+    "chu_ky_quy_dao_ngay": 15.945,
+    "chu_ky_tu_quay_gio": 382.7,
+    "nhiet_do_tb_k": 94.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 19,
+  "fields": {
+    "ten": "Enceladus",
+    "ten_en": "Enceladus",
+    "ten_khong_dau": "enceladus",
+    "slug": "enceladus",
+    "api_id": "encelade",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 19,
+    "mau": "#F1F6FA",
+    "ban_kinh_km": 252.1,
+    "khoi_luong_kg": 1.08e+20,
+    "trong_luc": 0.113,
+    "chu_ky_quy_dao_ngay": 1.37,
+    "chu_ky_tu_quay_gio": 32.9,
+    "nhiet_do_tb_k": 75.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 20,
+  "fields": {
+    "ten": "Mimas",
+    "ten_en": "Mimas",
+    "ten_khong_dau": "mimas",
+    "slug": "mimas",
+    "api_id": "mimas",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 20,
+    "mau": "#C7C5C2",
+    "ban_kinh_km": 198.2,
+    "khoi_luong_kg": 3.75e+19,
+    "trong_luc": 0.064,
+    "chu_ky_quy_dao_ngay": 0.942,
+    "chu_ky_tu_quay_gio": 22.6,
+    "nhiet_do_tb_k": 64.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 21,
+  "fields": {
+    "ten": "Tethys",
+    "ten_en": "Tethys",
+    "ten_khong_dau": "tethys",
+    "slug": "tethys",
+    "api_id": "tethys",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 21,
+    "mau": "#DDD9D2",
+    "ban_kinh_km": 531.1,
+    "khoi_luong_kg": 6.18e+20,
+    "trong_luc": 0.146,
+    "chu_ky_quy_dao_ngay": 1.888,
+    "chu_ky_tu_quay_gio": 45.3,
+    "nhiet_do_tb_k": 86.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 22,
+  "fields": {
+    "ten": "Dione",
+    "ten_en": "Dione",
+    "ten_khong_dau": "dione",
+    "slug": "dione",
+    "api_id": "dione",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 22,
+    "mau": "#C9C3BB",
+    "ban_kinh_km": 561.4,
+    "khoi_luong_kg": 1.1e+21,
+    "trong_luc": 0.232,
+    "chu_ky_quy_dao_ngay": 2.737,
+    "chu_ky_tu_quay_gio": 65.7,
+    "nhiet_do_tb_k": 87.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 23,
+  "fields": {
+    "ten": "Rhea",
+    "ten_en": "Rhea",
+    "ten_khong_dau": "rhea",
+    "slug": "rhea",
+    "api_id": "rhea",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 23,
+    "mau": "#BDB7AE",
+    "ban_kinh_km": 763.8,
+    "khoi_luong_kg": 2.31e+21,
+    "trong_luc": 0.264,
+    "chu_ky_quy_dao_ngay": 4.518,
+    "chu_ky_tu_quay_gio": 108.4,
+    "nhiet_do_tb_k": 76.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 24,
+  "fields": {
+    "ten": "Iapetus",
+    "ten_en": "Iapetus",
+    "ten_khong_dau": "iapetus",
+    "slug": "iapetus",
+    "api_id": "japet",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 24,
+    "mau": "#6E6258",
+    "ban_kinh_km": 734.5,
+    "khoi_luong_kg": 1.81e+21,
+    "trong_luc": 0.223,
+    "chu_ky_quy_dao_ngay": 79.32,
+    "chu_ky_tu_quay_gio": 1903.7,
+    "nhiet_do_tb_k": 110.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 25,
+  "fields": {
+    "ten": "Hyperion",
+    "ten_en": "Hyperion",
+    "ten_khong_dau": "hyperion",
+    "slug": "hyperion",
+    "api_id": "hyperion",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 25,
+    "mau": "#B79F82",
+    "ban_kinh_km": 135.0,
+    "khoi_luong_kg": 5.6e+18,
+    "trong_luc": 0.02,
+    "chu_ky_quy_dao_ngay": 21.28,
+    "chu_ky_tu_quay_gio": null,
+    "nhiet_do_tb_k": 93.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 26,
+  "fields": {
+    "ten": "Phoebe",
+    "ten_en": "Phoebe",
+    "ten_khong_dau": "phoebe",
+    "slug": "phoebe",
+    "api_id": "phoebe",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 26,
+    "mau": "#5A534C",
+    "ban_kinh_km": 106.5,
+    "khoi_luong_kg": 8.29e+18,
+    "trong_luc": 0.042,
+    "chu_ky_quy_dao_ngay": 550.3,
+    "chu_ky_tu_quay_gio": 9.27,
+    "nhiet_do_tb_k": 73.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 27,
+  "fields": {
+    "ten": "Janus",
+    "ten_en": "Janus",
+    "ten_khong_dau": "janus",
+    "slug": "janus",
+    "api_id": "janus",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 27,
+    "mau": "#B4ADA3",
+    "ban_kinh_km": 89.5,
+    "khoi_luong_kg": 1.9e+18,
+    "trong_luc": 0.016,
+    "chu_ky_quy_dao_ngay": 0.695,
+    "chu_ky_tu_quay_gio": 16.7,
+    "nhiet_do_tb_k": null
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 28,
+  "fields": {
+    "ten": "Pandora",
+    "ten_en": "Pandora",
+    "ten_khong_dau": "pandora",
+    "slug": "pandora",
+    "api_id": "pandore",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 6,
+    "thu_tu": 28,
+    "mau": "#C4BDB0",
+    "ban_kinh_km": 40.7,
+    "khoi_luong_kg": 1.37e+17,
+    "trong_luc": 0.0055,
+    "chu_ky_quy_dao_ngay": 0.629,
+    "chu_ky_tu_quay_gio": 15.1,
+    "nhiet_do_tb_k": null
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 29,
+  "fields": {
+    "ten": "Miranda",
+    "ten_en": "Miranda",
+    "ten_khong_dau": "miranda",
+    "slug": "miranda",
+    "api_id": "miranda",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 29,
+    "mau": "#A9B0B5",
+    "ban_kinh_km": 235.8,
+    "khoi_luong_kg": 6.4e+19,
+    "trong_luc": 0.079,
+    "chu_ky_quy_dao_ngay": 1.413,
+    "chu_ky_tu_quay_gio": 33.9,
+    "nhiet_do_tb_k": 60.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 30,
+  "fields": {
+    "ten": "Ariel",
+    "ten_en": "Ariel",
+    "ten_khong_dau": "ariel",
+    "slug": "ariel",
+    "api_id": "ariel",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 30,
+    "mau": "#B9BFC4",
+    "ban_kinh_km": 578.9,
+    "khoi_luong_kg": 1.25e+21,
+    "trong_luc": 0.27,
+    "chu_ky_quy_dao_ngay": 2.52,
+    "chu_ky_tu_quay_gio": 60.5,
+    "nhiet_do_tb_k": 60.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 31,
+  "fields": {
+    "ten": "Umbriel",
+    "ten_en": "Umbriel",
+    "ten_khong_dau": "umbriel",
+    "slug": "umbriel",
+    "api_id": "umbriel",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 31,
+    "mau": "#6C6E73",
+    "ban_kinh_km": 584.7,
+    "khoi_luong_kg": 1.28e+21,
+    "trong_luc": 0.25,
+    "chu_ky_quy_dao_ngay": 4.144,
+    "chu_ky_tu_quay_gio": 99.5,
+    "nhiet_do_tb_k": 75.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 32,
+  "fields": {
+    "ten": "Titania",
+    "ten_en": "Titania",
+    "ten_khong_dau": "titania",
+    "slug": "titania",
+    "api_id": "titania",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 32,
+    "mau": "#A7A49F",
+    "ban_kinh_km": 788.4,
+    "khoi_luong_kg": 3.4e+21,
+    "trong_luc": 0.37,
+    "chu_ky_quy_dao_ngay": 8.706,
+    "chu_ky_tu_quay_gio": 209.0,
+    "nhiet_do_tb_k": 70.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 33,
+  "fields": {
+    "ten": "Oberon",
+    "ten_en": "Oberon",
+    "ten_khong_dau": "oberon",
+    "slug": "oberon",
+    "api_id": "oberon",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 33,
+    "mau": "#8F8580",
+    "ban_kinh_km": 761.4,
+    "khoi_luong_kg": 3.08e+21,
+    "trong_luc": 0.35,
+    "chu_ky_quy_dao_ngay": 13.463,
+    "chu_ky_tu_quay_gio": 323.0,
+    "nhiet_do_tb_k": 75.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 34,
+  "fields": {
+    "ten": "Puck",
+    "ten_en": "Puck",
+    "ten_khong_dau": "puck",
+    "slug": "puck",
+    "api_id": "puck",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 7,
+    "thu_tu": 34,
+    "mau": "#6F6D70",
+    "ban_kinh_km": 81.0,
+    "khoi_luong_kg": 2.9e+18,
+    "trong_luc": 0.03,
+    "chu_ky_quy_dao_ngay": 0.762,
+    "chu_ky_tu_quay_gio": 18.3,
+    "nhiet_do_tb_k": null
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 35,
+  "fields": {
+    "ten": "Triton",
+    "ten_en": "Triton",
+    "ten_khong_dau": "triton",
+    "slug": "triton",
+    "api_id": "triton",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 8,
+    "thu_tu": 35,
+    "mau": "#E7C9C4",
+    "ban_kinh_km": 1353.4,
+    "khoi_luong_kg": 2.14e+22,
+    "trong_luc": 0.779,
+    "chu_ky_quy_dao_ngay": 5.877,
+    "chu_ky_tu_quay_gio": 141.0,
+    "nhiet_do_tb_k": 38.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 36,
+  "fields": {
+    "ten": "Proteus",
+    "ten_en": "Proteus",
+    "ten_khong_dau": "proteus",
+    "slug": "proteus",
+    "api_id": "protee",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 8,
+    "thu_tu": 36,
+    "mau": "#6D6A6C",
+    "ban_kinh_km": 210.0,
+    "khoi_luong_kg": 4.4e+19,
+    "trong_luc": 0.07,
+    "chu_ky_quy_dao_ngay": 1.122,
+    "chu_ky_tu_quay_gio": 26.9,
+    "nhiet_do_tb_k": 51.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 37,
+  "fields": {
+    "ten": "Nereid",
+    "ten_en": "Nereid",
+    "ten_khong_dau": "nereid",
+    "slug": "nereid",
+    "api_id": "nereide",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 8,
+    "thu_tu": 37,
+    "mau": "#9B9794",
+    "ban_kinh_km": 170.0,
+    "khoi_luong_kg": 3.1e+19,
+    "trong_luc": 0.072,
+    "chu_ky_quy_dao_ngay": 360.13,
+    "chu_ky_tu_quay_gio": 11.5,
+    "nhiet_do_tb_k": 50.0
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 38,
+  "fields": {
+    "ten": "Larissa",
+    "ten_en": "Larissa",
+    "ten_khong_dau": "larissa",
+    "slug": "larissa",
+    "api_id": "larissa",
+    "loai": "ve_tinh",
+    "hanh_tinh_me": 8,
+    "thu_tu": 38,
+    "mau": "#7B7875",
+    "ban_kinh_km": 97.0,
+    "khoi_luong_kg": 4.2e+18,
+    "trong_luc": 0.03,
+    "chu_ky_quy_dao_ngay": 0.555,
+    "chu_ky_tu_quay_gio": 13.3,
+    "nhiet_do_tb_k": null
+  }
+},
+{
+  "model": "thienvan.thienthe",
+  "pk": 39,
+  "fields": {
+    "ten": "Mặt Trời",
+    "ten_en": "Sun",
+    "ten_khong_dau": "mat troi",
+    "slug": "sun",
+    "api_id": "soleil",
+    "loai": "sao",
+    "hanh_tinh_me": null,
+    "thu_tu": 0,
+    "mau": "#FF8A3D",
+    "ban_kinh_km": 695700.0,
+    "khoi_luong_kg": 1.989e+30,
+    "trong_luc": 274.0,
+    "chu_ky_quy_dao_ngay": 84000000000.0,
+    "chu_ky_tu_quay_gio": 609.12,
+    "nhiet_do_tb_k": 5772.0
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 1,
+  "fields": {
+    "thien_the": 1,
+    "tieu_de": "Sao Thủy: nhỏ nhất, nhanh nhất, khổ nhất",
+    "noi_dung": "Sao Thủy là hành tinh nhỏ nhất trong hệ Mặt Trời và cũng ở gần Mặt Trời nhất. Nó chỉ mất khoảng 88 ngày Trái Đất để chạy hết một vòng quỹ đạo, nhanh hơn mọi hành tinh khác.\n\nVì gần như không có khí quyển giữ nhiệt, nơi đây chịu chênh lệch nhiệt độ cực lớn: ban ngày có thể lên tới khoảng 430 °C, còn ban đêm tụt xuống gần -180 °C. Bề mặt đầy hố va chạm và trông khá giống Mặt Trăng.\n\nĐiều bất ngờ là dù ở sát Mặt Trời, Sao Thủy vẫn có băng nước. Băng nằm trong những miệng hố ở hai cực, nơi ánh nắng không bao giờ chiếu tới.\n\nTàu MESSENGER của NASA từng bay quanh hành tinh này từ năm 2011 đến 2015, và tàu BepiColombo của châu Âu cùng Nhật Bản đang tiếp tục hành trình tới đây.",
+    "co_the_ban_chua_biet": "Trên Sao Thủy, từ lúc Mặt Trời mọc lần này đến lần sau mất khoảng 176 ngày Trái Đất, tức là một \"ngày\" ở đây dài bằng hai \"năm\" của chính nó.",
+    "ngay_dang": "2026-11-04T09:28:02.275Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 2,
+  "fields": {
+    "thien_the": 2,
+    "tieu_de": "Sao Kim: xinh đẹp nhưng cực kỳ khó ở",
+    "noi_dung": "Sao Kim có kích thước gần bằng Trái Đất nên hay được gọi là hành tinh chị em của chúng ta. Tuy vậy, đây là một trong những nơi khắc nghiệt nhất hệ Mặt Trời.\n\nLớp khí quyển dày đặc khí CO₂ giữ nhiệt mạnh đến mức bề mặt nóng khoảng 465 °C, nóng hơn cả Sao Thủy dù ở xa Mặt Trời hơn. Áp suất ở bề mặt gấp hơn 90 lần Trái Đất, còn mây thì chứa axit sulfuric.\n\nSao Kim cũng tự quay ngược chiều so với đa số hành tinh và quay rất chậm. Vì vậy, nếu đứng được trên đó, bạn sẽ thấy Mặt Trời mọc ở hướng tây.\n\nNhờ lớp mây phản chiếu ánh sáng tốt, Sao Kim là thiên thể sáng nhất trên bầu trời đêm sau Mặt Trăng. Người Việt gọi nó là sao Hôm khi xuất hiện lúc chiều tối và sao Mai khi xuất hiện lúc rạng sáng.",
+    "co_the_ban_chua_biet": "Sao Kim tự quay một vòng mất lâu hơn cả thời gian nó đi hết một vòng quanh Mặt Trời: một ngày tự quay ở đây dài hơn một năm.",
+    "ngay_dang": "2026-11-04T09:28:02.280Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 3,
+  "fields": {
+    "thien_the": 3,
+    "tieu_de": "Trái Đất: nhà của chúng ta",
+    "noi_dung": "Trái Đất là hành tinh duy nhất mà con người biết là có sự sống. Khoảng 71% bề mặt được nước bao phủ, và đây cũng là hành tinh duy nhất hiện có biển nước lỏng ổn định trên bề mặt.\n\nKhí quyển chủ yếu gồm nitơ và oxy, vừa giúp chúng ta thở vừa giữ nhiệt độ ở mức dễ chịu. Từ trường Trái Đất đóng vai trò như lá chắn, làm lệch phần lớn các hạt năng lượng cao đến từ Mặt Trời.\n\nTrục quay nghiêng khoảng 23,4 độ là lý do chúng ta có các mùa trong năm. Trái Đất cũng được đi cùng một vệ tinh khá lớn là Mặt Trăng, thứ góp phần tạo ra thủy triều.\n\nBề mặt hành tinh này vẫn liên tục thay đổi nhờ các mảng kiến tạo, núi lửa và gió mưa, nên phần lớn hố va chạm cũ đã bị xóa dấu vết.",
+    "co_the_ban_chua_biet": "Trái Đất không tròn xoe: vì tự quay, nó hơi phình ở xích đạo, nên đỉnh Chimborazo ở Ecuador mới là điểm xa tâm Trái Đất nhất, chứ không phải đỉnh Everest.",
+    "ngay_dang": "2026-11-04T09:28:02.284Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 4,
+  "fields": {
+    "thien_the": 4,
+    "tieu_de": "Sao Hỏa: hành tinh đỏ đầy bụi",
+    "noi_dung": "Sao Hỏa có màu đỏ là do đất đá giàu oxit sắt, nói vui là cả hành tinh đang bị gỉ. Nó có đường kính chỉ khoảng một nửa Trái Đất và khí quyển rất mỏng, chủ yếu là CO₂.\n\nDù nhỏ, Sao Hỏa lại sở hữu những địa danh khổng lồ. Olympus Mons là núi lửa lớn nhất từng biết trong hệ Mặt Trời, cao khoảng 22 km, gấp gần 2,5 lần đỉnh Everest. Hẻm núi Valles Marineris thì dài hơn 4.000 km.\n\nNhiều dấu vết cho thấy nước lỏng từng chảy trên bề mặt thời xa xưa. Ngày nay nước chủ yếu ở dạng băng tại hai cực và dưới lòng đất.\n\nCác robot tự hành như Curiosity và Perseverance đang tìm hiểu xem Sao Hỏa từng có điều kiện phù hợp cho sự sống hay chưa. Một ngày ở đây dài khoảng 24 giờ 37 phút, gần giống Trái Đất.",
+    "co_the_ban_chua_biet": "Hoàng hôn trên Sao Hỏa có màu xanh lam, ngược hẳn với hoàng hôn đỏ cam trên Trái Đất, vì bụi mịn ở đó tán xạ ánh sáng theo kiểu khác.",
+    "ngay_dang": "2026-11-04T09:28:02.289Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 5,
+  "fields": {
+    "thien_the": 5,
+    "tieu_de": "Sao Mộc: ông lớn của cả xóm",
+    "noi_dung": "Sao Mộc là hành tinh lớn nhất hệ Mặt Trời. Khối lượng của nó gấp hơn hai lần tất cả các hành tinh còn lại cộng lại. Đây là hành tinh khí khổng lồ, chủ yếu gồm hydro và heli, nên không có bề mặt rắn để đứng.\n\nDù to như vậy, Sao Mộc lại quay nhanh nhất: một ngày chỉ dài khoảng 10 giờ. Tốc độ quay này kéo mây thành các dải màu đặc trưng mà ta thấy trên ảnh.\n\nĐiểm nổi tiếng nhất là Vết Đỏ Lớn, một cơn bão khổng lồ đã được quan sát từ hơn một trăm năm nay. Cơn bão này đang thu nhỏ dần nhưng vẫn rộng hơn Trái Đất.\n\nSao Mộc có gần 100 vệ tinh đã biết. Bốn vệ tinh lớn nhất là Io, Europa, Ganymede và Callisto, được Galileo phát hiện năm 1610 bằng kính thiên văn tự chế.",
+    "co_the_ban_chua_biet": "Sao Mộc cũng có vành đai, chỉ là chúng mỏng và tối đến mức mãi tới năm 1979 tàu Voyager 1 mới phát hiện ra.",
+    "ngay_dang": "2026-11-04T09:28:02.293Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 6,
+  "fields": {
+    "thien_the": 6,
+    "tieu_de": "Sao Thổ: chúa tể vành đai",
+    "noi_dung": "Sao Thổ là hành tinh lớn thứ hai và nổi tiếng nhờ hệ vành đai rực rỡ. Vành đai trải rộng hàng trăm nghìn kilômét nhưng ở phần lớn các vị trí chỉ dày khoảng mười mét đến cỡ một kilômét. Thành phần chủ yếu là các mảnh băng nước, từ hạt bụi nhỏ đến những khối to bằng ngôi nhà.\n\nGiống Sao Mộc, Sao Thổ là hành tinh khí khổng lồ, không có bề mặt rắn. Nó có mật độ trung bình thấp nhất trong các hành tinh.\n\nSao Thổ có hơn 270 vệ tinh đã biết, đông nhất hệ Mặt Trời. Trong đó, Titan có khí quyển dày còn Enceladus phun băng vào không gian.\n\nTàu Cassini đã nghiên cứu nơi này suốt 13 năm trước khi kết thúc sứ mệnh bằng cú lao vào khí quyển Sao Thổ năm 2017.",
+    "co_the_ban_chua_biet": "Mật độ trung bình của Sao Thổ thấp hơn nước, nên về lý thuyết nó sẽ nổi nếu bạn tìm được một cái bồn tắm đủ lớn.",
+    "ngay_dang": "2026-11-04T09:28:02.297Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 7,
+  "fields": {
+    "thien_the": 7,
+    "tieu_de": "Sao Thiên Vương: lăn quanh Mặt Trời",
+    "noi_dung": "Sao Thiên Vương là hành tinh băng khổng lồ. Màu xanh ngọc của nó đến từ khí metan trong khí quyển, loại khí hấp thụ ánh sáng đỏ.\n\nĐiểm kỳ lạ nhất là trục quay nghiêng khoảng 98 độ, tức hành tinh gần như nằm nghiêng khi đi quanh Mặt Trời. Các nhà khoa học cho rằng nguyên nhân có thể là một cú va chạm cực lớn từ thuở xa xưa.\n\nVì nghiêng như vậy và mất 84 năm mới đi hết một vòng, mỗi cực có khoảng 42 năm liên tục có nắng rồi 42 năm chìm trong bóng tối.\n\nSao Thiên Vương cũng có vành đai và nhiều vệ tinh, đặt theo tên nhân vật trong tác phẩm của Shakespeare và Alexander Pope. Tới nay chỉ có một tàu vũ trụ từng ghé qua là Voyager 2, vào năm 1986.",
+    "co_the_ban_chua_biet": "Mây ở tầng trên của Sao Thiên Vương chứa hydro sunfua, chính là chất tạo ra mùi trứng thối. Tin vui là bạn sẽ không ngửi được vì cũng chẳng sống nổi ở đó.",
+    "ngay_dang": "2026-11-04T09:28:02.302Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 8,
+  "fields": {
+    "thien_the": 8,
+    "tieu_de": "Sao Hải Vương: xa, lạnh và lắm gió",
+    "noi_dung": "Sao Hải Vương là hành tinh xa Mặt Trời nhất. Ở khoảng cách đó, nó nhận được rất ít ánh sáng và nhiệt, nhưng khí quyển lại có những cơn gió nhanh nhất từng đo được trong hệ Mặt Trời, tới khoảng 2.000 km/h.\n\nHành tinh này đặc biệt vì được dự đoán bằng toán học trước khi có người nhìn thấy. Quỹ đạo của Sao Thiên Vương lệch khỏi tính toán, nên các nhà thiên văn suy ra phải có một hành tinh khác kéo nó. Năm 1846, Sao Hải Vương được tìm thấy gần đúng vị trí dự đoán.\n\nGiống Sao Thiên Vương, đây là hành tinh băng khổng lồ với màu xanh do khí metan. Vệ tinh lớn nhất của nó là Triton, một thế giới băng giá đi ngược chiều.\n\nTàu duy nhất từng ghé thăm là Voyager 2, vào năm 1989.",
+    "co_the_ban_chua_biet": "Sao Hải Vương mất khoảng 165 năm để đi hết một vòng quỹ đạo, nên năm 2011 nó mới hoàn thành đúng một \"năm\" kể từ ngày được phát hiện.",
+    "ngay_dang": "2026-11-04T09:28:02.306Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 9,
+  "fields": {
+    "thien_the": 9,
+    "tieu_de": "Mặt Trăng: người bạn đồng hành của Trái Đất",
+    "noi_dung": "Mặt Trăng là vệ tinh tự nhiên duy nhất của Trái Đất và là thiên thể duy nhất ngoài Trái Đất mà con người từng đặt chân lên. Giả thuyết được ủng hộ nhiều nhất cho rằng nó hình thành sau một cú va chạm khổng lồ giữa Trái Đất thuở sơ khai và một thiên thể cỡ Sao Hỏa.\n\nLực hấp dẫn của Mặt Trăng là nguyên nhân chính gây ra thủy triều. Vì tự quay và quay quanh Trái Đất với cùng chu kỳ, nó luôn hướng một mặt về phía chúng ta.",
+    "co_the_ban_chua_biet": "Mặt Trăng đang rời xa Trái Đất khoảng 3,8 cm mỗi năm, tức là gần bằng tốc độ móng tay bạn mọc dài.",
+    "ngay_dang": "2026-11-04T09:28:02.310Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 10,
+  "fields": {
+    "thien_the": 10,
+    "tieu_de": "Phobos: củ khoai đang rơi dần",
+    "noi_dung": "Phobos là vệ tinh lớn hơn trong hai vệ tinh của Sao Hỏa, có hình dạng méo mó như một củ khoai và được Asaph Hall phát hiện năm 1877. Nó bay rất gần hành tinh mẹ, đi hết một vòng chỉ trong khoảng 7,7 giờ, nhanh hơn cả một ngày trên Sao Hỏa. Miệng hố Stickney chiếm một phần lớn bề mặt của nó.",
+    "co_the_ban_chua_biet": "Phobos đang dần tiến lại gần Sao Hỏa. Trong khoảng 50 triệu năm nữa, nó có thể vỡ thành vành đai hoặc đâm xuống hành tinh.",
+    "ngay_dang": "2026-11-04T09:28:02.314Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 11,
+  "fields": {
+    "thien_the": 11,
+    "tieu_de": "Deimos: nhỏ xíu và bình thản",
+    "noi_dung": "Deimos là vệ tinh nhỏ hơn và ở xa hơn của Sao Hỏa, cũng được phát hiện năm 1877. Bề mặt của nó phủ lớp bụi dày nên trông mượt hơn Phobos. Cùng với Phobos, Deimos có thể là tiểu hành tinh bị bắt giữ, hoặc được tạo ra từ mảnh vụn sau một cú va chạm vào Sao Hỏa.",
+    "co_the_ban_chua_biet": "Tên Phobos và Deimos nghĩa là Sợ Hãi và Kinh Hoàng, hai người con của thần chiến tranh Mars. Nghe rất dữ cho những vệ tinh bé tí như vậy.",
+    "ngay_dang": "2026-11-04T09:28:02.318Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 12,
+  "fields": {
+    "thien_the": 12,
+    "tieu_de": "Io: thế giới núi lửa không ngủ",
+    "noi_dung": "Io là nơi có núi lửa hoạt động mạnh nhất hệ Mặt Trời, với hơn 400 núi lửa đang hoạt động. Lực hấp dẫn từ Sao Mộc và các vệ tinh lân cận liên tục bóp méo Io, làm nóng phần bên trong của nó. Bề mặt nhiều màu vàng, cam, đỏ là do lưu huỳnh và các hợp chất của nó.",
+    "co_the_ban_chua_biet": "Những mảng màu vàng cam khiến Io trông giống một chiếc pizza vũ trụ, nhưng cột khói núi lửa ở đây có thể phun cao hàng trăm kilômét.",
+    "ngay_dang": "2026-11-04T09:28:02.322Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 13,
+  "fields": {
+    "thien_the": 13,
+    "tieu_de": "Europa: đại dương giấu dưới lớp băng",
+    "noi_dung": "Bề mặt Europa là lớp băng nước sáng với chằng chịt vết nứt. Bên dưới, các nhà khoa học tin rằng có một đại dương nước mặn chứa nhiều nước hơn tất cả biển trên Trái Đất cộng lại. Vì thế đây là một trong những nơi đáng tìm kiếm sự sống nhất. Tàu Europa Clipper đã phóng năm 2024 và dự kiến đến nơi năm 2030.",
+    "co_the_ban_chua_biet": "Europa nhỏ hơn Mặt Trăng một chút nhưng có thể chứa lượng nước gấp khoảng đôi toàn bộ biển của Trái Đất.",
+    "ngay_dang": "2026-11-04T09:28:02.326Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 14,
+  "fields": {
+    "thien_the": 14,
+    "tieu_de": "Ganymede: vệ tinh to nhất hệ Mặt Trời",
+    "noi_dung": "Ganymede là vệ tinh lớn nhất trong hệ Mặt Trời, thậm chí lớn hơn cả Sao Thủy. Nó cũng là vệ tinh duy nhất được biết có từ trường riêng. Dưới lớp băng và đá có thể tồn tại một đại dương nước mặn. Tàu JUICE của châu Âu đang trên đường tới để nghiên cứu nó.",
+    "co_the_ban_chua_biet": "Ganymede to hơn Sao Thủy nhưng chỉ nặng bằng khoảng một nửa, vì nó chứa rất nhiều băng.",
+    "ngay_dang": "2026-11-04T09:28:02.330Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 15,
+  "fields": {
+    "thien_the": 15,
+    "tieu_de": "Callisto: bộ sưu tập hố va chạm",
+    "noi_dung": "Callisto là vệ tinh lớn thứ hai của Sao Mộc và có bề mặt nhiều hố va chạm bậc nhất hệ Mặt Trời. Bề mặt này rất cổ và ít thay đổi trong hàng tỉ năm. Nó ở khá xa Sao Mộc nên nhận ít bức xạ hơn, vì vậy từng được xem là điểm dừng chân tiềm năng cho các chuyến đi xa trong tương lai.",
+    "co_the_ban_chua_biet": "Trên Callisto gần như không có núi lửa hay mảng kiến tạo để xóa dấu vết, nên mỗi cú va chạm đều được lưu lại như một vết sẹo vĩnh viễn.",
+    "ngay_dang": "2026-11-04T09:28:02.334Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 16,
+  "fields": {
+    "thien_the": 16,
+    "tieu_de": "Amalthea: viên đá đỏ của Sao Mộc",
+    "noi_dung": "Amalthea là vệ tinh nhỏ có hình dạng thuôn dài, bay rất gần Sao Mộc. Bề mặt nó có màu đỏ nổi bật, có thể do lưu huỳnh bắn tới từ Io. Edward Barnard phát hiện nó năm 1892 bằng quan sát trực tiếp qua kính thiên văn.",
+    "co_the_ban_chua_biet": "Amalthea là vệ tinh cuối cùng trong lịch sử được phát hiện bằng mắt nhìn qua kính thiên văn, trước khi ảnh chụp thay thế công việc này.",
+    "ngay_dang": "2026-11-04T09:28:02.338Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 17,
+  "fields": {
+    "thien_the": 17,
+    "tieu_de": "Himalia: thành viên đi xa của Sao Mộc",
+    "noi_dung": "Himalia là một trong những vệ tinh không đều lớn nhất của Sao Mộc, được Charles Perrine phát hiện năm 1904. Nó nằm rất xa hành tinh mẹ, mất khoảng 250 ngày để đi hết một vòng. Có thể nó từng là tiểu hành tinh bị Sao Mộc bắt giữ, rồi vỡ ra và tạo thành một nhóm vệ tinh nhỏ đi cùng.",
+    "co_the_ban_chua_biet": "Himalia có cả một nhóm vệ tinh nhỏ bay gần giống quỹ đạo của nó, nên đôi khi được ví như một gia đình đi chung xe.",
+    "ngay_dang": "2026-11-04T09:28:02.343Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 18,
+  "fields": {
+    "thien_the": 18,
+    "tieu_de": "Titan: có sông, có hồ, có mưa nhưng không phải nước",
+    "noi_dung": "Titan là vệ tinh lớn nhất của Sao Thổ và là vệ tinh duy nhất có khí quyển dày đặc, chủ yếu là nitơ. Đây cũng là nơi duy nhất ngoài Trái Đất được biết có chất lỏng ổn định trên bề mặt, nhưng đó là các hồ metan và etan rất lạnh. Tàu đổ bộ Huygens đã hạ cánh ở đây năm 2005.",
+    "co_the_ban_chua_biet": "Khí quyển Titan dày còn trọng lực lại yếu, nên về lý thuyết một người đeo đôi cánh phù hợp có thể tự bay bằng sức mình.",
+    "ngay_dang": "2026-11-04T09:28:02.347Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 19,
+  "fields": {
+    "thien_the": 19,
+    "tieu_de": "Enceladus: quả cầu băng biết phun nước",
+    "noi_dung": "Enceladus nhỏ nhưng phủ băng rất sáng, phản xạ gần như toàn bộ ánh sáng Mặt Trời. Ở vùng cực nam, các vết nứt phun hơi nước và hạt băng vào không gian, cho thấy có đại dương mặn bên dưới. Tàu Cassini đã bay xuyên qua các cột phun và phát hiện nhiều hợp chất đáng chú ý trong đó.",
+    "co_the_ban_chua_biet": "Băng do Enceladus phun ra góp phần tạo nên vành E của Sao Thổ. Vệ tinh này đang tự tay trang trí cho hành tinh mẹ.",
+    "ngay_dang": "2026-11-04T09:28:02.351Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 20,
+  "fields": {
+    "thien_the": 20,
+    "tieu_de": "Mimas: vệ tinh giống Ngôi sao Tử thần",
+    "noi_dung": "Mimas là vệ tinh băng nhỏ với miệng hố Herschel rất lớn, rộng khoảng một phần ba đường kính cả vệ tinh. Cú va chạm tạo ra hố này suýt nữa đã phá vỡ Mimas. Phân tích quỹ đạo gần đây còn gợi ý rằng bên dưới bề mặt có thể có một đại dương trẻ.",
+    "co_the_ban_chua_biet": "Nhờ miệng hố khổng lồ, ảnh chụp Mimas giống hệt trạm vũ trụ Ngôi sao Tử thần trong Star Wars, dù phim ra đời trước khi có bức ảnh đó.",
+    "ngay_dang": "2026-11-04T09:28:02.355Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 21,
+  "fields": {
+    "thien_the": 21,
+    "tieu_de": "Tethys: quả bóng băng có vết nứt dài",
+    "noi_dung": "Tethys cấu tạo gần như toàn băng nước nên có mật độ rất thấp. Trên bề mặt có miệng hố khổng lồ Odysseus và hẻm núi Ithaca Chasma dài hơn 2.000 km, kéo dài trên gần ba phần tư chu vi vệ tinh. Hai vệ tinh nhỏ Telesto và Calypso đi chung quỹ đạo với nó.",
+    "co_the_ban_chua_biet": "Tethys đi cùng hai người bạn nhỏ trên cùng một đường quỹ đạo, một đi trước và một đi sau, như có vệ sĩ riêng.",
+    "ngay_dang": "2026-11-04T09:28:02.359Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 22,
+  "fields": {
+    "thien_the": 22,
+    "tieu_de": "Dione: những vách băng sáng",
+    "noi_dung": "Dione là vệ tinh băng có lõi đá khá lớn. Một mặt của nó phủ các vách băng sáng cao hàng trăm mét, từng bị nhầm là các vệt mờ cho đến khi tàu Cassini chụp cận cảnh. Dữ liệu cũng gợi ý có thể có đại dương dưới lớp băng dày.",
+    "co_the_ban_chua_biet": "Dione không đi một mình: hai vệ tinh tí hon là Helene và Polydeuces chạy chung quỹ đạo với nó, một chiếc ở phía trước và một chiếc ở phía sau.",
+    "ngay_dang": "2026-11-04T09:28:02.363Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 23,
+  "fields": {
+    "thien_the": 23,
+    "tieu_de": "Rhea: to thứ hai nhà Sao Thổ",
+    "noi_dung": "Rhea là vệ tinh lớn thứ hai của Sao Thổ, chủ yếu gồm băng nước và một ít đá. Bề mặt cổ phủ đầy hố va chạm, cùng những vách băng sáng ở một bên. Tàu Cassini từng phát hiện một lớp khí oxy và CO₂ cực mỏng quanh nó.",
+    "co_the_ban_chua_biet": "Rhea có một lớp khí chứa oxy, nhưng nó loãng tới mức chẳng có ai thở được, kể cả nếu bạn hít thật sâu.",
+    "ngay_dang": "2026-11-04T09:28:02.368Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 24,
+  "fields": {
+    "thien_the": 24,
+    "tieu_de": "Iapetus: vệ tinh hai màu có \"đường chỉ\"",
+    "noi_dung": "Iapetus có một bán cầu tối như than và một bán cầu sáng như tuyết, khác biệt mà Giovanni Cassini đã nhận ra từ năm 1671. Nó còn có một dãy núi chạy dọc xích đạo, cao tới khoảng 20 km. Nguồn gốc của dãy núi này vẫn đang được tranh luận.",
+    "co_the_ban_chua_biet": "Dãy núi ở xích đạo khiến Iapetus nhìn giống hạt óc chó, hay một quả bóng có đường chỉ khâu.",
+    "ngay_dang": "2026-11-04T09:28:02.372Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 25,
+  "fields": {
+    "thien_the": 25,
+    "tieu_de": "Hyperion: miếng bọt biển lộn nhào",
+    "noi_dung": "Hyperion có hình dạng không đều và bề mặt rỗ như bọt biển, vì nó rất xốp và có mật độ thấp. Khác với đa số vệ tinh, nó quay hỗn loạn, tức không có trục quay ổn định, nên chu kỳ tự quay thay đổi và không thể ghi một con số cố định.",
+    "co_the_ban_chua_biet": "Hyperion là thiên thể lớn đầu tiên được biết có kiểu quay hỗn loạn. Lần sau nhìn thấy, nó có thể đang quay theo một hướng hoàn toàn khác.",
+    "ngay_dang": "2026-11-04T09:28:02.376Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 26,
+  "fields": {
+    "thien_the": 26,
+    "tieu_de": "Phoebe: kẻ đi ngược chiều",
+    "noi_dung": "Phoebe ở rất xa Sao Thổ và đi ngược chiều với phần lớn các vệ tinh khác. Bề mặt tối, nhiều hố va chạm và có thể chứa vật chất từ vùng ngoài của hệ Mặt Trời, nên nhiều khả năng nó bị Sao Thổ bắt giữ. Một vành đai bụi khổng lồ có liên quan đến nó đã được phát hiện năm 2009.",
+    "co_the_ban_chua_biet": "Bụi từ Phoebe có thể đang bay vào và bám lên Iapetus, góp phần tạo ra mặt tối của vệ tinh hai màu đó.",
+    "ngay_dang": "2026-11-04T09:28:02.380Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 27,
+  "fields": {
+    "thien_the": 27,
+    "tieu_de": "Janus: bạn cùng phòng đổi chỗ",
+    "noi_dung": "Janus chia sẻ quỹ đạo gần như trùng khít với vệ tinh Epimetheus. Hai vệ tinh này ở sát nhau đến mức từng khiến các nhà thiên văn tưởng chỉ có một. Thay vì đâm nhau, chúng hoán đổi vị trí nhờ lực hấp dẫn của nhau.",
+    "co_the_ban_chua_biet": "Cứ khoảng bốn năm, Janus và Epimetheus lại đổi làn cho nhau một lần, như hai người lái xe rất hiểu ý.",
+    "ngay_dang": "2026-11-04T09:28:02.385Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 28,
+  "fields": {
+    "thien_the": 28,
+    "tieu_de": "Pandora: người chăn vành đai",
+    "noi_dung": "Pandora là vệ tinh nhỏ nằm ngay bên ngoài vành F của Sao Thổ. Cùng với Prometheus ở phía trong, nó được cho là giúp định hình vành đai mảnh này. Bề mặt của nó phủ một lớp bụi băng và có nhiều hố va chạm.",
+    "co_the_ban_chua_biet": "Các nhà khoa học gọi những vệ tinh kiểu này là vệ tinh chăn cừu, vì chúng giữ các hạt trong vành đai không đi lạc.",
+    "ngay_dang": "2026-11-04T09:28:02.389Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 29,
+  "fields": {
+    "thien_the": 29,
+    "tieu_de": "Miranda: bức tranh ghép lộn xộn",
+    "noi_dung": "Miranda nhỏ nhưng có địa hình kỳ lạ, trông như được ghép lại từ nhiều mảnh khác nhau. Trên đó có vách đá Verona Rupes cao khoảng 20 km, một trong những vách đá cao nhất hệ Mặt Trời. Nguyên nhân có thể là các đợt nóng lên trong quá khứ do lực hấp dẫn.",
+    "co_the_ban_chua_biet": "Trọng lực trên Miranda rất yếu, nên nếu nhảy từ đỉnh Verona Rupes bạn sẽ rơi trong vài phút trước khi chạm đất.",
+    "ngay_dang": "2026-11-04T09:28:02.394Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 30,
+  "fields": {
+    "thien_the": 30,
+    "tieu_de": "Ariel: vệ tinh sáng của Sao Thiên Vương",
+    "noi_dung": "Ariel là vệ tinh sáng nhất và có thể có bề mặt trẻ nhất trong nhóm vệ tinh lớn của Sao Thiên Vương. Các hẻm núi dài và những vùng đồng bằng mịn cho thấy nơi này từng có hoạt động địa chất. Dữ liệu từ kính James Webb còn cho thấy có băng CO₂ trên bề mặt.",
+    "co_the_ban_chua_biet": "Ariel lấy tên từ một nàng tiên trong vở The Tempest của Shakespeare và một nhân vật trong thơ của Alexander Pope, không phải nàng tiên cá đâu.",
+    "ngay_dang": "2026-11-04T09:28:02.398Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 31,
+  "fields": {
+    "thien_the": 31,
+    "tieu_de": "Umbriel: vệ tinh tối với chiếc nhẫn sáng",
+    "noi_dung": "Umbriel là vệ tinh tối nhất trong nhóm vệ tinh lớn của Sao Thiên Vương. Bề mặt cổ phủ nhiều hố va chạm và không có nhiều dấu vết của hoạt động địa chất. Ảnh chụp từ Voyager 2 năm 1986 vẫn là bức ảnh cận cảnh rõ nhất ta có về nó.",
+    "co_the_ban_chua_biet": "Miệng hố Wunda ở Umbriel có một vòng sáng ở đáy, nên ảnh chụp trông như vệ tinh tối màu đang đeo một chiếc nhẫn.",
+    "ngay_dang": "2026-11-04T09:28:02.402Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 32,
+  "fields": {
+    "thien_the": 32,
+    "tieu_de": "Titania: nữ hoàng của Sao Thiên Vương",
+    "noi_dung": "Titania là vệ tinh lớn nhất của Sao Thiên Vương, do William Herschel phát hiện năm 1787. Bề mặt gồm hố va chạm và các hẻm núi lớn như Messina Chasma, có thể hình thành khi phần bên trong nở ra. Nó được đặt theo tên nữ hoàng tiên trong vở Giấc mộng đêm hè.",
+    "co_the_ban_chua_biet": "Titania là vệ tinh lớn thứ tám của hệ Mặt Trời, nhưng đường kính vẫn chưa bằng một nửa Mặt Trăng.",
+    "ngay_dang": "2026-11-04T09:28:02.406Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 33,
+  "fields": {
+    "thien_the": 33,
+    "tieu_de": "Oberon: ông vua ở xa nhất",
+    "noi_dung": "Oberon là vệ tinh lớn ở xa nhất của Sao Thiên Vương, cũng do William Herschel phát hiện năm 1787. Bề mặt nhiều hố va chạm với lớp vật chất tối ở đáy. Nó có một ngọn núi cao bất thường, có thể cao tới khoảng 11 km, được nhìn thấy ở rìa ảnh Voyager 2.",
+    "co_the_ban_chua_biet": "Oberon và Titania là vợ chồng vua và hoàng hậu tiên trong kịch Shakespeare, và ngoài vũ trụ họ vẫn ở cùng một nhà.",
+    "ngay_dang": "2026-11-04T09:28:02.410Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 34,
+  "fields": {
+    "thien_the": 34,
+    "tieu_de": "Puck: quà của Voyager 2",
+    "noi_dung": "Puck là một trong số những vệ tinh nhỏ được tàu Voyager 2 phát hiện vào cuối năm 1985. Nó là vệ tinh nhỏ gần tròn với bề mặt tối và nhiều hố va chạm. Tên của nó lấy từ chú yêu tinh tinh nghịch trong vở Giấc mộng đêm hè.",
+    "co_the_ban_chua_biet": "Puck chính là vệ tinh duy nhất được Voyager 2 kịp lên kế hoạch chụp cận cảnh sau khi phát hiện, vì nó được tìm thấy ngay trước lúc tàu bay qua.",
+    "ngay_dang": "2026-11-04T09:28:02.414Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 35,
+  "fields": {
+    "thien_the": 35,
+    "tieu_de": "Triton: đi ngược chiều và phun băng",
+    "noi_dung": "Triton là vệ tinh lớn duy nhất đi ngược chiều với hướng quay của hành tinh mẹ, cho thấy nó bị Sao Hải Vương bắt giữ từ vành đai Kuiper. Bề mặt rất lạnh, khoảng -235 °C, phủ băng nitơ. Voyager 2 đã chụp được các cột khí phun lên từ bề mặt vào năm 1989.",
+    "co_the_ban_chua_biet": "Quỹ đạo Triton đang co dần. Trong rất nhiều triệu năm nữa, nó có thể bị xé vụn và cho Sao Hải Vương một hệ vành đai hoành tráng.",
+    "ngay_dang": "2026-11-04T09:28:02.418Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 36,
+  "fields": {
+    "thien_the": 36,
+    "tieu_de": "Proteus: to mà không chịu tròn",
+    "noi_dung": "Proteus là vệ tinh lớn thứ hai của Sao Hải Vương, được Voyager 2 phát hiện năm 1989. Nó rất tối và có hình dạng không đều, nhiều hố va chạm. Vệ tinh này ở sát hành tinh đến mức các kính thiên văn trên Trái Đất khi đó đã bỏ sót nó.",
+    "co_the_ban_chua_biet": "Proteus có kích thước gần ngưỡng tròn lại nhờ chính trọng lực của mình, nhưng lại vẫn méo, nên nhìn giống hình khối bị bóp nhẹ.",
+    "ngay_dang": "2026-11-04T09:28:02.424Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 37,
+  "fields": {
+    "thien_the": 37,
+    "tieu_de": "Nereid: quỹ đạo kiểu đi đường vòng",
+    "noi_dung": "Nereid do Gerard Kuiper phát hiện năm 1949. Nó có quỹ đạo dẹt bậc nhất trong các vệ tinh đã biết: có lúc ở gần Sao Hải Vương khoảng 1,4 triệu km, nhưng có lúc lại ra xa gần 10 triệu km. Mỗi vòng dài khoảng 360 ngày.",
+    "co_the_ban_chua_biet": "Một năm quanh Sao Hải Vương của Nereid kéo dài gần bằng một năm Trái Đất, chỉ có điều nó cứ lúc gần lúc xa.",
+    "ngay_dang": "2026-11-04T09:28:02.429Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 38,
+  "fields": {
+    "thien_the": 38,
+    "tieu_de": "Larissa: tìm ra nhờ một ngôi sao bị che",
+    "noi_dung": "Larissa được phát hiện lần đầu năm 1981 khi nó tình cờ che một ngôi sao, rồi được Voyager 2 xác nhận năm 1989. Đây là vệ tinh nhỏ, tối màu, có hình dạng không đều và nhiều hố va chạm. Nó bay khá gần Sao Hải Vương.",
+    "co_the_ban_chua_biet": "Larissa không phải được tìm bằng cách nhìn vào nó, mà bằng cách để ý xem có ngôi sao nào bỗng tắt đi trong khoảnh khắc.",
+    "ngay_dang": "2026-11-04T09:28:02.437Z"
+  }
+},
+{
+  "model": "thienvan.baiviet",
+  "pk": 39,
+  "fields": {
+    "thien_the": 39,
+    "tieu_de": "Mặt Trời: ông chủ của cả xóm",
+    "noi_dung": "Mặt Trời là ngôi sao ở trung tâm hệ Mặt Trời và là lý do cả xóm này tồn tại. Nó chiếm khoảng 99,8% tổng khối lượng của toàn hệ, nên mọi hành tinh, vệ tinh, tiểu hành tinh và sao chổi đều phải đi quanh nó.\n\nVề cơ bản, Mặt Trời là một quả cầu plasma khổng lồ, chủ yếu gồm hydro và heli. Ở lõi, nhiệt độ lên tới khoảng 15 triệu °C, đủ để phản ứng tổng hợp hạt nhân biến hydro thành heli và giải phóng năng lượng. Bề mặt nhìn thấy được thì nguội hơn nhiều, chỉ khoảng 5.500 °C.\n\nMặt Trời không hề yên tĩnh. Vết đen, bùng nổ và gió Mặt Trời thay đổi theo chu kỳ khoảng 11 năm. Khi các hạt từ Mặt Trời gặp từ trường Trái Đất, chúng tạo ra cực quang, đồng thời có thể làm nhiễu vệ tinh và lưới điện.\n\nMặt Trời đã khoảng 4,6 tỉ năm tuổi và đang ở giữa cuộc đời. Khoảng 5 tỉ năm nữa, nó sẽ phình to thành sao khổng lồ đỏ rồi co lại thành sao lùn trắng. Tàu Parker Solar Probe của NASA đang nghiên cứu nó ở cự ly gần chưa từng có.\n\nMặt Trời cũng không đứng yên: nó kéo theo cả xóm đi một vòng quanh tâm Ngân Hà trong khoảng 230 triệu năm. Con số đó chính là chu kỳ quỹ đạo trong bảng số liệu ở trên.",
+    "co_the_ban_chua_biet": "Mặt Trời thật ra có màu trắng. Chúng ta thấy nó vàng là do khí quyển Trái Đất tán xạ bớt ánh sáng xanh, còn nhìn từ ngoài không gian thì nó trắng tinh.",
+    "ngay_dang": "2026-11-04T09:55:00.542Z"
+  }
+}
+]

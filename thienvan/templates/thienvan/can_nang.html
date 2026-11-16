@@ -1,0 +1,30 @@
+{% extends "thienvan/base.html" %}
+{% load l10n static %}
+{% block tieu_de %}Cân thử trên các hành tinh | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container cot-giua pt-4">
+  <h1 class="display-5 mb-2">Lên hành tinh khác, bạn nặng bao nhiêu?</h1>
+  <p class="trong-rong mb-4">Khối lượng của bạn không đổi, chỉ có lực kéo là khác. Số hiển thị là mức cân chỉ nếu đem cân từ Trái Đất đi theo.</p>
+  <form class="chon" id="form-can" novalidate>
+    <div>
+      <label for="kg">Cân nặng của bạn (kg)</label>
+      <input id="kg" type="number" min="1" max="500" step="any" value="60" inputmode="decimal">
+    </div>
+  </form>
+  <p class="bao-loi mt-3" id="loi-can" role="alert" hidden></p>
+  <div class="bang-vui-wrap mt-4">
+    <table class="bang-vui" id="bang-can">
+      <thead><tr><th scope="col">Hành tinh</th><th scope="col" class="cot-a">Cân chỉ</th></tr></thead>
+      <tbody>
+        {% for t in hanh_tinh %}
+        <tr data-g="{{ t.trong_luc|unlocalize }}">
+          <th scope="row"><a href="{{ t.get_absolute_url }}">{{ t.ten }}</a></th>
+          <td data-cot="kg"></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
+{% block cuoi_trang %}<script src="{% static 'thienvan/can_nang.js' %}"></script>{% endblock %}

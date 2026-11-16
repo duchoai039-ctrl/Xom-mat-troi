@@ -1,0 +1,75 @@
+{% extends "thienvan/base.html" %}
+{% load static %}
+{% block tieu_de %}{{ t.ten }} | Xóm Mặt Trời{% endblock %}
+{% block dau_trang %}
+{% if t.texture_url %}
+<script type="importmap">{"imports": {"three": "{% static 'vendor/three.module.min.js' %}"}}</script>
+{% endif %}
+{% endblock %}
+{% block noi_dung %}
+<div class="container pt-4">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-6">
+      <div class="san-khau" {% if t.texture_url %}id="san-khau-3d" data-slug="{{ t.slug }}" data-texture="{{ t.texture_url }}" data-may="{% static 'textures/earth_clouds.jpg' %}" data-vanh="{% static 'textures/saturn_ring_alpha.png' %}" data-mau="{{ t.mau }}"{% endif %}>
+        <span class="bi bi--{{ t.slug }}" style="--mau:{{ t.mau }};{% if t.texture_url %}--anh:url('{{ t.texture_url }}');{% endif %}" aria-hidden="true"></span>
+      </div>
+      {% if t.texture_url %}<p class="goi-y-xoay" id="goi-y-xoay" hidden>Kéo để xoay</p>{% endif %}
+    </div>
+    <div class="col-lg-6">
+      <h1 class="ten-lon">{{ t.ten }}</h1>
+      <p class="ten-phu">
+        {% if t.hanh_tinh_me %}Vệ tinh của <a href="{{ t.hanh_tinh_me.get_absolute_url }}">{{ t.hanh_tinh_me.ten }}</a>{% elif t.la_hanh_tinh %}Hành tinh trong hệ Mặt Trời{% else %}Ngôi sao ở trung tâm cả xóm{% endif %}{% if t.ten != t.ten_en %}, tên tiếng Anh {{ t.ten_en }}{% endif %}
+      </p>
+      <table class="ly-lich">
+        <caption class="visually-hidden">Số liệu của {{ t.ten }}</caption>
+        <tbody>
+          {% for nhan, gia_tri in so_lieu %}
+          <tr><th scope="row">{{ nhan }}</th><td>{{ gia_tri }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <a class="lien-ket-rieng mt-2" href="{% url 'so_sanh' %}?a={{ t.slug }}">So sánh {{ t.ten }} với thiên thể khác</a>
+    </div>
+  </div>
+
+  <div class="cot-doc mt-5">
+    {% if bai %}
+    {% include "thienvan/_bai_viet.html" %}
+    {% if bai_khac %}
+    <section class="mt-5">
+      <h2>Bài khác về {{ t.ten }}</h2>
+      <ul class="list-unstyled mb-0">
+        {% for khac in bai_khac %}<li><a class="lien-ket-rieng" href="{{ khac.get_absolute_url }}">{{ khac.tieu_de }}</a></li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    {% else %}
+    <p class="trong-rong">Bài về {{ t.ten }} đang được viết, quay lại sau nhé.</p>
+    {% endif %}
+    {% if user.is_staff %}
+    <p class="mt-3 mb-0"><a class="lien-ket-rieng" href="{% url 'them_bai_viet' %}?thien_the={{ t.slug }}">Thêm bài viết cho {{ t.ten }}</a></p>
+    {% endif %}
+  </div>
+
+  {% if t.la_hanh_tinh %}
+  <section class="mt-5">
+    <h2>Vệ tinh của {{ t.ten }}</h2>
+    {% if ve_tinh %}
+    <div class="bau-troi mt-3">
+      {% for t in ve_tinh %}
+      <a class="vien-bi" href="{{ t.get_absolute_url }}">
+        <span class="khung-bi">{% include "thienvan/_bi.html" %}</span>
+        <span class="nhan-ten">{{ t.ten }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="trong-rong">{{ t.ten }} không có vệ tinh nào, sống một mình cũng vui.</p>
+    {% endif %}
+  </section>
+  {% endif %}
+</div>
+{% endblock %}
+{% block cuoi_trang %}
+{% if t.texture_url %}<script type="module" src="{% static 'thienvan/hanh_tinh_3d.js' %}"></script>{% endif %}
+{% endblock %}

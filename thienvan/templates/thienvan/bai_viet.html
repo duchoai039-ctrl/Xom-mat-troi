@@ -1,0 +1,10 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}{{ bai.tieu_de }} | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container pt-3">
+  <div class="cot-doc">
+    <a class="lien-ket-rieng mb-2" href="{{ t.get_absolute_url }}">Về trang {{ t.ten }}</a>
+    {% include "thienvan/_bai_viet.html" with la_trang_bai=True %}
+  </div>
+</div>
+{% endblock %}

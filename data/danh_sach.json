@@ -1,0 +1,48 @@
+[
+  {"api_id": "soleil", "ten": "Mặt Trời", "ten_en": "Sun", "loai": "sao", "mau": "#FF8A3D", "ban_kinh_km": 695700, "khoi_luong_kg": 1.989e30, "trong_luc": 274, "chu_ky_quy_dao_ngay": 8.4e10, "chu_ky_tu_quay_gio": 609.12, "nhiet_do_tb_k": 5772},
+
+  {"api_id": "mercure", "ten": "Sao Thủy", "ten_en": "Mercury", "mau": "#B7A99A", "ban_kinh_km": 2439.7, "khoi_luong_kg": 3.301e23, "trong_luc": 3.7, "chu_ky_quy_dao_ngay": 87.969, "chu_ky_tu_quay_gio": 1407.6, "nhiet_do_tb_k": 440},
+  {"api_id": "venus", "ten": "Sao Kim", "ten_en": "Venus", "mau": "#E8B96A", "ban_kinh_km": 6051.8, "khoi_luong_kg": 4.867e24, "trong_luc": 8.87, "chu_ky_quy_dao_ngay": 224.701, "chu_ky_tu_quay_gio": -5832.5, "nhiet_do_tb_k": 737},
+  {"api_id": "terre", "ten": "Trái Đất", "ten_en": "Earth", "mau": "#4F9DE8", "ban_kinh_km": 6371.0, "khoi_luong_kg": 5.972e24, "trong_luc": 9.81, "chu_ky_quy_dao_ngay": 365.256, "chu_ky_tu_quay_gio": 23.934, "nhiet_do_tb_k": 288},
+  {"api_id": "mars", "ten": "Sao Hỏa", "ten_en": "Mars", "mau": "#E0663A", "ban_kinh_km": 3389.5, "khoi_luong_kg": 6.417e23, "trong_luc": 3.71, "chu_ky_quy_dao_ngay": 686.98, "chu_ky_tu_quay_gio": 24.623, "nhiet_do_tb_k": 210},
+  {"api_id": "jupiter", "ten": "Sao Mộc", "ten_en": "Jupiter", "mau": "#D9A77A", "ban_kinh_km": 69911, "khoi_luong_kg": 1.898e27, "trong_luc": 24.79, "chu_ky_quy_dao_ngay": 4332.59, "chu_ky_tu_quay_gio": 9.925, "nhiet_do_tb_k": 165},
+  {"api_id": "saturne", "ten": "Sao Thổ", "ten_en": "Saturn", "mau": "#E6CF96", "ban_kinh_km": 58232, "khoi_luong_kg": 5.683e26, "trong_luc": 10.44, "chu_ky_quy_dao_ngay": 10759.22, "chu_ky_tu_quay_gio": 10.656, "nhiet_do_tb_k": 134},
+  {"api_id": "uranus", "ten": "Sao Thiên Vương", "ten_en": "Uranus", "mau": "#9FE3E6", "ban_kinh_km": 25362, "khoi_luong_kg": 8.681e25, "trong_luc": 8.87, "chu_ky_quy_dao_ngay": 30688.5, "chu_ky_tu_quay_gio": -17.24, "nhiet_do_tb_k": 76},
+  {"api_id": "neptune", "ten": "Sao Hải Vương", "ten_en": "Neptune", "mau": "#4F6FE8", "ban_kinh_km": 24622, "khoi_luong_kg": 1.024e26, "trong_luc": 11.15, "chu_ky_quy_dao_ngay": 60182, "chu_ky_tu_quay_gio": 16.11, "nhiet_do_tb_k": 72},
+
+  {"api_id": "lune", "ten": "Mặt Trăng", "ten_en": "Moon", "me": "terre", "mau": "#C9C6D6", "ban_kinh_km": 1737.4, "khoi_luong_kg": 7.342e22, "trong_luc": 1.62, "chu_ky_quy_dao_ngay": 27.322, "chu_ky_tu_quay_gio": 655.7, "nhiet_do_tb_k": 220},
+
+  {"api_id": "phobos", "ten": "Phobos", "ten_en": "Phobos", "me": "mars", "mau": "#8F7F73", "ban_kinh_km": 11.27, "khoi_luong_kg": 1.066e16, "trong_luc": 0.0057, "chu_ky_quy_dao_ngay": 0.319, "chu_ky_tu_quay_gio": 7.66, "nhiet_do_tb_k": 233},
+  {"api_id": "deimos", "ten": "Deimos", "ten_en": "Deimos", "me": "mars", "mau": "#A8957F", "ban_kinh_km": 6.2, "khoi_luong_kg": 1.476e15, "trong_luc": 0.003, "chu_ky_quy_dao_ngay": 1.263, "chu_ky_tu_quay_gio": 30.3, "nhiet_do_tb_k": 233},
+
+  {"api_id": "io", "ten": "Io", "ten_en": "Io", "me": "jupiter", "mau": "#E8D85A", "ban_kinh_km": 1821.6, "khoi_luong_kg": 8.93e22, "trong_luc": 1.796, "chu_ky_quy_dao_ngay": 1.769, "chu_ky_tu_quay_gio": 42.46, "nhiet_do_tb_k": 110},
+  {"api_id": "europe", "ten": "Europa", "ten_en": "Europa", "me": "jupiter", "mau": "#E3D9C6", "ban_kinh_km": 1560.8, "khoi_luong_kg": 4.8e22, "trong_luc": 1.314, "chu_ky_quy_dao_ngay": 3.551, "chu_ky_tu_quay_gio": 85.2, "nhiet_do_tb_k": 102},
+  {"api_id": "ganymede", "ten": "Ganymede", "ten_en": "Ganymede", "me": "jupiter", "mau": "#A79B8C", "ban_kinh_km": 2634.1, "khoi_luong_kg": 1.482e23, "trong_luc": 1.428, "chu_ky_quy_dao_ngay": 7.155, "chu_ky_tu_quay_gio": 171.7, "nhiet_do_tb_k": 110},
+  {"api_id": "callisto", "ten": "Callisto", "ten_en": "Callisto", "me": "jupiter", "mau": "#7E7264", "ban_kinh_km": 2410.3, "khoi_luong_kg": 1.076e23, "trong_luc": 1.235, "chu_ky_quy_dao_ngay": 16.689, "chu_ky_tu_quay_gio": 400.5, "nhiet_do_tb_k": 134},
+  {"api_id": "amalthee", "ten": "Amalthea", "ten_en": "Amalthea", "me": "jupiter", "mau": "#B5573F", "ban_kinh_km": 83.5, "khoi_luong_kg": 2.08e18, "trong_luc": 0.02, "chu_ky_quy_dao_ngay": 0.498, "chu_ky_tu_quay_gio": 11.96, "nhiet_do_tb_k": 120},
+  {"api_id": "himalia", "ten": "Himalia", "ten_en": "Himalia", "me": "jupiter", "mau": "#8D8378", "ban_kinh_km": 85, "khoi_luong_kg": 4.2e18, "trong_luc": 0.062, "chu_ky_quy_dao_ngay": 250.6, "chu_ky_tu_quay_gio": 7.78, "nhiet_do_tb_k": null},
+
+  {"api_id": "titan", "ten": "Titan", "ten_en": "Titan", "me": "saturne", "mau": "#E0A84F", "ban_kinh_km": 2574.7, "khoi_luong_kg": 1.345e23, "trong_luc": 1.352, "chu_ky_quy_dao_ngay": 15.945, "chu_ky_tu_quay_gio": 382.7, "nhiet_do_tb_k": 94},
+  {"api_id": "encelade", "ten": "Enceladus", "ten_en": "Enceladus", "me": "saturne", "mau": "#F1F6FA", "ban_kinh_km": 252.1, "khoi_luong_kg": 1.08e20, "trong_luc": 0.113, "chu_ky_quy_dao_ngay": 1.37, "chu_ky_tu_quay_gio": 32.9, "nhiet_do_tb_k": 75},
+  {"api_id": "mimas", "ten": "Mimas", "ten_en": "Mimas", "me": "saturne", "mau": "#C7C5C2", "ban_kinh_km": 198.2, "khoi_luong_kg": 3.75e19, "trong_luc": 0.064, "chu_ky_quy_dao_ngay": 0.942, "chu_ky_tu_quay_gio": 22.6, "nhiet_do_tb_k": 64},
+  {"api_id": "tethys", "ten": "Tethys", "ten_en": "Tethys", "me": "saturne", "mau": "#DDD9D2", "ban_kinh_km": 531.1, "khoi_luong_kg": 6.18e20, "trong_luc": 0.146, "chu_ky_quy_dao_ngay": 1.888, "chu_ky_tu_quay_gio": 45.3, "nhiet_do_tb_k": 86},
+  {"api_id": "dione", "ten": "Dione", "ten_en": "Dione", "me": "saturne", "mau": "#C9C3BB", "ban_kinh_km": 561.4, "khoi_luong_kg": 1.1e21, "trong_luc": 0.232, "chu_ky_quy_dao_ngay": 2.737, "chu_ky_tu_quay_gio": 65.7, "nhiet_do_tb_k": 87},
+  {"api_id": "rhea", "ten": "Rhea", "ten_en": "Rhea", "me": "saturne", "mau": "#BDB7AE", "ban_kinh_km": 763.8, "khoi_luong_kg": 2.31e21, "trong_luc": 0.264, "chu_ky_quy_dao_ngay": 4.518, "chu_ky_tu_quay_gio": 108.4, "nhiet_do_tb_k": 76},
+  {"api_id": "japet", "ten": "Iapetus", "ten_en": "Iapetus", "me": "saturne", "mau": "#6E6258", "ban_kinh_km": 734.5, "khoi_luong_kg": 1.81e21, "trong_luc": 0.223, "chu_ky_quy_dao_ngay": 79.32, "chu_ky_tu_quay_gio": 1903.7, "nhiet_do_tb_k": 110},
+  {"api_id": "hyperion", "ten": "Hyperion", "ten_en": "Hyperion", "me": "saturne", "mau": "#B79F82", "ban_kinh_km": 135, "khoi_luong_kg": 5.6e18, "trong_luc": 0.02, "chu_ky_quy_dao_ngay": 21.28, "chu_ky_tu_quay_gio": null, "nhiet_do_tb_k": 93},
+  {"api_id": "phoebe", "ten": "Phoebe", "ten_en": "Phoebe", "me": "saturne", "mau": "#5A534C", "ban_kinh_km": 106.5, "khoi_luong_kg": 8.29e18, "trong_luc": 0.042, "chu_ky_quy_dao_ngay": 550.3, "chu_ky_tu_quay_gio": 9.27, "nhiet_do_tb_k": 73},
+  {"api_id": "janus", "ten": "Janus", "ten_en": "Janus", "me": "saturne", "mau": "#B4ADA3", "ban_kinh_km": 89.5, "khoi_luong_kg": 1.9e18, "trong_luc": 0.016, "chu_ky_quy_dao_ngay": 0.695, "chu_ky_tu_quay_gio": 16.7, "nhiet_do_tb_k": null},
+  {"api_id": "pandore", "ten": "Pandora", "ten_en": "Pandora", "me": "saturne", "mau": "#C4BDB0", "ban_kinh_km": 40.7, "khoi_luong_kg": 1.37e17, "trong_luc": 0.0055, "chu_ky_quy_dao_ngay": 0.629, "chu_ky_tu_quay_gio": 15.1, "nhiet_do_tb_k": null},
+
+  {"api_id": "miranda", "ten": "Miranda", "ten_en": "Miranda", "me": "uranus", "mau": "#A9B0B5", "ban_kinh_km": 235.8, "khoi_luong_kg": 6.4e19, "trong_luc": 0.079, "chu_ky_quy_dao_ngay": 1.413, "chu_ky_tu_quay_gio": 33.9, "nhiet_do_tb_k": 60},
+  {"api_id": "ariel", "ten": "Ariel", "ten_en": "Ariel", "me": "uranus", "mau": "#B9BFC4", "ban_kinh_km": 578.9, "khoi_luong_kg": 1.25e21, "trong_luc": 0.27, "chu_ky_quy_dao_ngay": 2.52, "chu_ky_tu_quay_gio": 60.5, "nhiet_do_tb_k": 60},
+  {"api_id": "umbriel", "ten": "Umbriel", "ten_en": "Umbriel", "me": "uranus", "mau": "#6C6E73", "ban_kinh_km": 584.7, "khoi_luong_kg": 1.28e21, "trong_luc": 0.25, "chu_ky_quy_dao_ngay": 4.144, "chu_ky_tu_quay_gio": 99.5, "nhiet_do_tb_k": 75},
+  {"api_id": "titania", "ten": "Titania", "ten_en": "Titania", "me": "uranus", "mau": "#A7A49F", "ban_kinh_km": 788.4, "khoi_luong_kg": 3.4e21, "trong_luc": 0.37, "chu_ky_quy_dao_ngay": 8.706, "chu_ky_tu_quay_gio": 209, "nhiet_do_tb_k": 70},
+  {"api_id": "oberon", "ten": "Oberon", "ten_en": "Oberon", "me": "uranus", "mau": "#8F8580", "ban_kinh_km": 761.4, "khoi_luong_kg": 3.08e21, "trong_luc": 0.35, "chu_ky_quy_dao_ngay": 13.463, "chu_ky_tu_quay_gio": 323, "nhiet_do_tb_k": 75},
+  {"api_id": "puck", "ten": "Puck", "ten_en": "Puck", "me": "uranus", "mau": "#6F6D70", "ban_kinh_km": 81, "khoi_luong_kg": 2.9e18, "trong_luc": 0.03, "chu_ky_quy_dao_ngay": 0.762, "chu_ky_tu_quay_gio": 18.3, "nhiet_do_tb_k": null},
+
+  {"api_id": "triton", "ten": "Triton", "ten_en": "Triton", "me": "neptune", "mau": "#E7C9C4", "ban_kinh_km": 1353.4, "khoi_luong_kg": 2.14e22, "trong_luc": 0.779, "chu_ky_quy_dao_ngay": 5.877, "chu_ky_tu_quay_gio": 141, "nhiet_do_tb_k": 38},
+  {"api_id": "protee", "ten": "Proteus", "ten_en": "Proteus", "me": "neptune", "mau": "#6D6A6C", "ban_kinh_km": 210, "khoi_luong_kg": 4.4e19, "trong_luc": 0.07, "chu_ky_quy_dao_ngay": 1.122, "chu_ky_tu_quay_gio": 26.9, "nhiet_do_tb_k": 51},
+  {"api_id": "nereide", "ten": "Nereid", "ten_en": "Nereid", "me": "neptune", "mau": "#9B9794", "ban_kinh_km": 170, "khoi_luong_kg": 3.1e19, "trong_luc": 0.072, "chu_ky_quy_dao_ngay": 360.13, "chu_ky_tu_quay_gio": 11.5, "nhiet_do_tb_k": 50},
+  {"api_id": "larissa", "ten": "Larissa", "ten_en": "Larissa", "me": "neptune", "mau": "#7B7875", "ban_kinh_km": 97, "khoi_luong_kg": 4.2e18, "trong_luc": 0.03, "chu_ky_quy_dao_ngay": 0.555, "chu_ky_tu_quay_gio": 13.3, "nhiet_do_tb_k": null}
+]

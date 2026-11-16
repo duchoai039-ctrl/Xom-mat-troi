@@ -1,0 +1,17 @@
+{% extends "thienvan/base.html" %}
+{% block tieu_de %}Thêm bài viết | Xóm Mặt Trời{% endblock %}
+{% block noi_dung %}
+<div class="container cot-giua pt-4">
+  <h1 class="display-5 mb-4">Bạn muốn thêm gì?</h1>
+  <div class="lua-chon">
+    <a href="{% url 'them_bai_viet' %}">
+      <strong>Thêm bài viết vào hành tinh đã có sẵn</strong>
+      <span>Chọn một thiên thể trong xóm, kể cả vệ tinh và Mặt Trời, rồi viết bài.</span>
+    </a>
+    <a href="{% url 'them_thien_the' %}">
+      <strong>Thêm hành tinh mới <em class="nhan-beta">beta</em></strong>
+      <span>Tạo một hành tinh chưa có trong xóm, sau đó viết bài cho nó.</span>
+    </a>
+  </div>
+</div>
+{% endblock %}

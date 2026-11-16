@@ -1,0 +1,16 @@
+.venv/
+db.sqlite3
+__pycache__/
+*.pyc
+
+# Deploy
+staticfiles/
+
+# Giữ trên máy, không đưa lên GitHub
+CLAUDE.md
+PLAN.md
+.claude/
+.impeccable/
+
+# Báo cáo nộp riêng, không đưa lên GitHub
+bao-cao/
